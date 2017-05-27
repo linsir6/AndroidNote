@@ -6,7 +6,7 @@
 
 
 
-![效果图](https://ws3.sinaimg.cn/large/006tNc79ly1fg09runl48j30940g8weq.jpg)
+![效果图](/img/linsir.jpg)
 
 
 
