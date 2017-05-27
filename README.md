@@ -1,10 +1,30 @@
-# Android-学习笔记
+![](/Users/mac/WorkSpace/git_android_notes/img/background.jpg)
 
-> Android学习笔记，会不定期更新，记录着在项目中遇到的问题，与解决方案，以及一些Android常见知识点。
+
+
+# Android—学习笔记
+
+> 作者：关玮琳linSir
+>
+> 个人网站：www.linsir.top
+>
+> 在这里我记录了一些我在学习Android过程中遇到的问题，以及一些我所做过的项目，当然可能有一些是我片面的理解，如果发现有什么问题，欢迎随时提Issues，也欢迎同样热爱安卓的你和我一起来管理这个仓库。
+
+
+
+
 
 - 基础
     - [RecyclerView的简介](/RecyclerView的简介.md)
+
     - [android中相机与相册的详细使用](/android中相机与相册的详细使用.md)
+
+
+
+
+----
+
+
 
 - 自定义view
     - 理论基础
@@ -16,6 +36,14 @@
        - [FlowLayout流式布局](/FlowLayout.md)
 
 
+
+
+----
+
+
+
+
+
 - 开源框架相关
     - [一款Android的Log、Toast的库](/一款Android的Log、Toast的库.md)
     - [RxJava+Bretrofit2实现安卓中网络操作](/RxJava-%2Bretrofit2实现安卓中网络操作.md)
@@ -25,6 +53,34 @@
     - [Android黑科技——ButterKnifeZelezny](/Android黑科技——ButterKnifeZelezny.md)
     - [Picasso-android-load-image-layout](/Picasso-android-load-image-layout.md)
 
+
+
+
+
+
+----
+
+
+
+
+
+## 版权声明
+
+转载请注明出处，或将以下内容直接粘贴在文章头部
+
+
+
+> 作者：https://github.com/linsir6
+>
+> 网站：www.linsir.top
+>
+> 原文：https://github.com/linsir6/Android-Notes
+
+
+
+已经看到这里啦，不妨给个star～
+
+![](/Users/mac/WorkSpace/git_android_notes/img/background2.jpg)
 
 
 
