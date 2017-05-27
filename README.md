@@ -1,4 +1,4 @@
-![](/Users/mac/WorkSpace/git_android_notes/img/background.jpg)
+![](/img/background.jpg)
 
 
 
@@ -80,7 +80,7 @@
 
 已经看到这里啦，不妨给个star～
 
-![](/Users/mac/WorkSpace/git_android_notes/img/background2.jpg)
+![](/img/background2.jpg)
 
 
 
