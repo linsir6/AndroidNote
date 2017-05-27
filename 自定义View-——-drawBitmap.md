@@ -3,8 +3,7 @@
 > 最近在复习自定义view，学习了GitHub上面有一个非常详细的自定义view的教程，就打算跟着把里面的demo都做一遍，然后记录一下学习到的checkView。[教程地址](http://www.gcssloop.com/customview/CustomViewIndex)
 
 
-
-![效果图](http://upload-images.jianshu.io/upload_images/2585384-8f6561376acf91b7.gif?imageMogr2/auto-orient/strip)
+![效果图](https://ws2.sinaimg.cn/large/006tNbRwly1ffxxfb2a80g308i0f80vk.gif)
 
 
 ``drawBitmap``是指将一张图片一张图片画在画布上面。这里面调用的：
