@@ -9,10 +9,11 @@
 - 自定义view
     - 理论基础
     - 实践
-        - [自定义view基础入门--实现饼状图](/自定义view基础入门——实现饼状图.md)
-        - [自定义View--drawBitmap](/自定义View-——-drawBitmap.md)
-        - [自定义view--侧滑可删除的listView](/Android自定义view——侧滑可删除的listView.md)
-        - [FlowLayout流式布局](/FlowLayout.md)
+       - [自定义CameraView](/自定义CameraView.md)
+       - [自定义view基础入门--实现饼状图](/自定义view基础入门——实现饼状图.md)
+       - [自定义View--drawBitmap](/自定义View-——-drawBitmap.md)
+       - [自定义view--侧滑可删除的listView](/Android自定义view——侧滑可删除的listView.md)
+       - [FlowLayout流式布局](/FlowLayout.md)
 
 
 - 开源框架相关
@@ -23,8 +24,7 @@
     - [Android将library打包成jar文件或aar文件](/Android将library打包成jar文件或aar文件.md)
     - [Android黑科技——ButterKnifeZelezny](/Android黑科技——ButterKnifeZelezny.md)
     - [Picasso-android-load-image-layout](/Picasso-android-load-image-layout.md)
-    
-        
+
 
 
 
