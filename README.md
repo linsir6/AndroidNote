@@ -15,8 +15,8 @@
 
 
 - 基础
-    - [RecyclerView的简介](/RecyclerView的简介.md)
 
+    - [RecyclerView的简介](/RecyclerView的简介.md)
     - [android中相机与相册的详细使用](/android中相机与相册的详细使用.md)
 
 
@@ -27,7 +27,9 @@
 
 
 - 自定义view
+
     - 理论基础
+    
     - 实践
        - [自定义CameraView](/自定义CameraView.md)
        - [自定义view基础入门--实现饼状图](/自定义view基础入门——实现饼状图.md)
@@ -45,6 +47,7 @@
 
 
 - 开源框架相关
+
     - [一款Android的Log、Toast的库](/一款Android的Log、Toast的库.md)
     - [RxJava+Bretrofit2实现安卓中网络操作](/RxJava-%2Bretrofit2实现安卓中网络操作.md)
     - [Android当下最流行的开源框架总结](/Android当下最流行的开源框架总结.md)
