@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## Request Permissions
+### Request Permissions
 The example below shows how to request permissions for a method that requires both CAMERA and ACCESS_FINE_LOCATION permissions. There are a few things to note:
 
 - Using EasyPermissions#hasPermissions(...) to check if the app already has the required permissions. This method can take any number of permissions as its final argument.
@@ -57,11 +57,91 @@ The example below shows how to request permissions for a method that requires bo
 
 - 申请权限通过EasyPermissions的requestPermissions的方法。这个方法将会申请系统的权限，并且在如果有必要的条件下会展示出理由。这个申请权限的代码应该提供独一无二的申请，并且这些方法可以提供很多权限作为最终的定论。
 
-//todo
+- 应用AfterPermissionGranted这个标签，这是可以选择的，但是它提供了方便。如果所有权限在申请之后都被授予了，一些携带着这个标签的方法将会被执行。这是为了简化在所有权限被授予后需要运行请求方法的公共流程。这些同样也可以被实现通过添加合理的逻辑在onPermissionsGranted这个方法回调的时候。
+
+```
+@AfterPermissionGranted(RC_CAMERA_AND_LOCATION)
+private void methodRequiresTwoPermission() {
+    String[] perms = {Manifest.permission.CAMERA, Manifest.permission.ACCESS_FINE_LOCATION};
+    if (EasyPermissions.hasPermissions(this, perms)) {
+        // Already have permission, do the thing
+        // ...
+    } else {
+        // Do not have permissions, request them now
+        EasyPermissions.requestPermissions(this, getString(R.string.camera_and_location_rationale),
+                RC_CAMERA_AND_LOCATION, perms);
+    }
+}
+```
 
 
+Optionally, for a finer control, you can have your Activity / Fragment implement the PermissionCallbacks interface.
+
+随意的，通过一个好的控制，你可以让你的Activity/Fragment 实现PermissionCallbacks这个接口。
 
 
+```
+public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        // Forward results to EasyPermissions
+        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this);
+    }
+
+    @Override
+    public void onPermissionsGranted(int requestCode, List<String> list) {
+        // Some permissions have been granted
+        // ...
+    }
+
+    @Override
+    public void onPermissionsDenied(int requestCode, List<String> list) {
+        // Some permissions have been denied
+        // ...
+    }
+}
+```
+
+
+### Required Permissions 必须的权限
+
+In some cases your app will not function properly without certain permissions. If the user denies these permissions with the "Never Ask Again" option, you will be unable to request these permissions from the user and they must be changed in app settings. You can use the method EasyPermissions.somePermissionPermanentlyDenied(...) to display a dialog to the user in this situation and direct them to the system setting screen for your app:
+
+
+无论如何你的app在没有某些权限的时候是不能正常运行的。如果用户否认这些权限，并且选择了再也不询问的选项，你将没有能力去申请那些权限通过用户，他们必须在app的设置中修改这些。你可以用这个方法EasyPermissions.somePermissionPermanentlyDenied(...)，展示一个对话框给用户在这个位置直接的告诉他们去系统的设置中去改变为了这个app：
+
+```
+@Override
+public void onPermissionsDenied(int requestCode, List<String> perms) {
+    Log.d(TAG, "onPermissionsDenied:" + requestCode + ":" + perms.size());
+
+    // (Optional) Check whether the user denied any permissions and checked "NEVER ASK AGAIN."
+    // This will display a dialog directing them to enable the permission in app settings.
+    if (EasyPermissions.somePermissionPermanentlyDenied(this, perms)) {
+        new AppSettingsDialog.Builder(this).build().show();
+    }
+}
+
+@Override
+public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
+
+    if (requestCode == AppSettingsDialog.DEFAULT_SETTINGS_REQ_CODE) {
+        // Do something after user returned from app settings screen, like showing a Toast.
+        Toast.makeText(this, R.string.returned_from_app_settings_to_activity, Toast.LENGTH_SHORT)
+                .show();
+    }
+}
+```
 
 
 
