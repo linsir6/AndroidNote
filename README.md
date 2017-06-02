@@ -135,8 +135,8 @@
 - [淘宝cnpm](/NodeJS相关/淘宝cnpm.md)
 - [js两个对象相互影响](/NodeJS相关/js实现对象，两个对象会相互影响.md)
 - [koa框架对post内容读取并解析](/NodeJS相关/koa框架对post内容读取并解析.md)
-- [nodejs查询数据库后将值返回前端](/NodeJs相关/nodejs查询数据库后将值返回前端.md)
-- [nodejs项目在云服务器的部署.md](/NodeJs相关/nodejs项目在云服务器的部署.md)
+- [nodejs查询数据库后将值返回前端](/NodeJS相关/nodejs查询数据库后将值返回前端.md)
+- [nodejs项目在云服务器的部署](/NodeJS相关/nodejs项目在云服务器的部署.md)
 
 
 
