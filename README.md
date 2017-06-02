@@ -1,4 +1,4 @@
-[](/img/background.jpg)
+![](/img/background.jpg)
 
 
 
@@ -163,7 +163,7 @@
 
 已经看到这里啦，不妨给个star～
 
-[](/img/background2.jpg)
+![](/img/background2.jpg)
 
 
 
