@@ -105,7 +105,7 @@
 ## Shell相关
 
 - [一篇文章学懂Shell脚本](/Shell脚本相关/一篇文章学懂Shell脚本.md)
-- [简单的Shell脚本](/Shell 脚本相关/简单的Shell脚本.md)
+- [简单的Shell脚本](/Shell脚本相关/简单的Shell脚本.md)
 
 
 ----
