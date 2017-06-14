@@ -31,6 +31,7 @@
 ### 自定义View
 
 - [自定义View入门](/Android自定义View/自定义View入门.md)
+- [自定义ViewGroup入门](/Android自定义View/自定义ViewGroup入门.md)
 - [CameraView](/Android自定义View/自定义View——CameraView.md)
 - [CheckView](/Android自定义View/自定义View——CheckView.md)
 - [CircleView](/Android自定义View/自定义View——CircleView.md)
