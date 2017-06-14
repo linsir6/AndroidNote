@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/github/release/qubyte/rubidium/all.svg)]()
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]() [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/github/release/qubyte/rubidium/all.svg)]()
 
 
 
