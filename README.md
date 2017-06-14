@@ -1,14 +1,14 @@
+# Android—Notes
+
 [![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.3-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
 
 
 
-# Android—Notes
 
 
 
-> 作者：关玮琳linSir
->
-> 在这里记录了一些我在学习过程中遇到的问题，以及一些我所总结的知识点，如果您发现这里的内容与真实含义有什么偏差，欢迎随时提Issues，也欢迎同样热爱安卓的你和我一起来管理这个仓库。
+
+Android-Notes在这里记录了一些我在学习过程中遇到的问题，以及一些我所总结的知识点，如果您发现这里的内容与真实含义有什么偏差，欢迎随时提Issues，也欢迎同样热爱安卓的你和我一起来管理这个仓库。
 
 
 
