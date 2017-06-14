@@ -1,4 +1,4 @@
-# Android—Notes
+# Android—Note
 
 [![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.0-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
 
@@ -8,7 +8,7 @@
 
 
 
-Android-Notes里面记录了有关Android的常用基础知识、面试中经常被问到的知识点、Android进阶必备的知识。
+Android-Note里面记录了有关Android的常用基础知识、面试中经常被问到的知识点、Android进阶必备的知识。
 
 
 
@@ -162,6 +162,12 @@ Android-Notes里面记录了有关Android的常用基础知识、面试中经常
 - [mac本地生成ssh-key](/mac相关/mac本地生成ssh-key.md)
 
 ----
+
+# Getting Help
+
+To report a specific problem or feature request, open a new issue on Github. For questions, suggestions, or anything else, email linsir678@gmail.com.
+
+
 
 # Author
 
