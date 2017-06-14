@@ -164,7 +164,8 @@ Android-Notes里面记录了有关Android的常用基础知识、面试中经常
 ----
 
 # Author
-关玮琳linSir - @linsir6 on [GitHub](https://github.com/linsir6), @[linsir.top](linsir.top)
+
+关玮琳linSir - @[linsir6](https://github.com/linsir6) on GitHub, @[linsir.top](linsir.top)
 
 # License
 
