@@ -2,9 +2,8 @@
 
 
 
-# Android—学习笔记
+# Android—Notes
 
-----
 
 
 > 作者：关玮琳linSir
