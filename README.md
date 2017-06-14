@@ -1,4 +1,4 @@
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]() [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.3-ff69b4.svg)]()
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]() [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.3-ff69b4.svg)]() [![User](https://img.shields.io/badge/user-linsir-yellow.svg)
 
 
 
