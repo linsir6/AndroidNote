@@ -185,9 +185,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 
 
-已经看到这里啦，不妨给个star～
+**已经看到这里啦，不妨给个star~**
 
-![](/img/background2.jpg)
+![](/img/background.jpg)
 
 
 
