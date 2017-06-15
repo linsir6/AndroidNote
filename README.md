@@ -23,6 +23,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [BroadcastReceiver详细解析](/Android基础/BroadcastReceiver详细解析.md)
 - [Android异步任务机制之AsycTask](/Android基础/Android异步任务机制之AsycTask.md)
 - [Android系统相机与相册的使用](/Android基础/Android中相机与相册的详细使用.md)
+- [图片缓存原理](/Android基础/图片缓存原理.md)
 - [Android跟随手指移动的View](/Android基础/Android跟随手指移动的view.md)
 - [RecyclerView的使用](/Android基础/RecyclerView的简介.md)
 
