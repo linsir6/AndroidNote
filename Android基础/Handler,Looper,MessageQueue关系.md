@@ -231,6 +231,9 @@ new Thread() {
 1. msg.target = this 
 
  　　该代码将Message的target绑定为当前的Handler
+   
+   <br>
+   
 2. queue.enqueueMessage
 　　
 　　变量queue表示的是Handler所绑定的消息队列MessageQueue，通过调用queue.enqueueMessage(msg, uptimeMillis)我们将Message放入到消息队列中。
@@ -430,7 +433,7 @@ Handler的dispatchMessage的源码如下：
 
 # ７、总结  　　
 
-**Handler**：
+**Handler**:
  
 - 发送消息，它能把消息发送给Looper管理的MessageQueue。 
 
@@ -439,9 +442,10 @@ Handler的dispatchMessage的源码如下：
 - Handler的构造方法，会首先得到当前线程中保存的Looper实例，进而与Looper实例中的MessageQueue想关联。　
  
 - Handler的sendMessage方法，会给msg的target赋值为handler自身，然后加入MessageQueue中。　　
-　　　　
-**Looper**： 
-
+　　　
+   
+   
+**Looper**:
 
 - 每个线程只有一个Looper，它负责管理对应的MessageQueue，会不断地从MessageQueue取出消息，并将消息分给对应的Hanlder处理。 　
 
@@ -452,12 +456,12 @@ Handler的dispatchMessage的源码如下：
 
 - looper()方法：启动Looper，使用一个死循环不断取出MessageQueue中的消息，并将取出的消息分给对应的Handler进行处理。 　
 
-**MessageQueue**：
+**MessageQueue**:
 
 - 由Looper负责管理，它采用先进先出的方式来管理Message。　
 
 
-**Message**：
+**Message**:
 
 - Handler接收和处理的消息对象。 
 
