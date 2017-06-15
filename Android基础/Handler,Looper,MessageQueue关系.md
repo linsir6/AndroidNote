@@ -88,8 +88,11 @@ new Thread() {
 
 
 ①　public　Handler()
+
 ②　public　Handler(Callbackcallback)
+
 ③　public　Handler(Looperlooper)
+
 ④　public　Handler(Looperlooper, Callbackcallback) 　
 
 
