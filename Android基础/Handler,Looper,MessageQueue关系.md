@@ -86,7 +86,8 @@ new Thread() {
 
 4.1 　Handler的构造函数
 
-> ①　public　Handler()
+
+①　public　Handler()
 ②　public　Handler(Callbackcallback)
 ③　public　Handler(Looperlooper)
 ④　public　Handler(Looperlooper, Callbackcallback) 　
