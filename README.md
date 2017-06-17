@@ -48,6 +48,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 - [Android中常见面试题](/Android面试相关/Android中常见面试题.md)
 - [Android 5.0 6.0 7.0新特性](/Android面试相关/Android5.0-6.0-7.0新特性.md)
+- [Android中弱引用与软引用](/Android面试相关/Android中弱引用与软引用.md)
 
 ### 开源框架
 
