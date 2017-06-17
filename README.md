@@ -46,7 +46,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 ### 面试题
 
-- [Android中常见面试题](/Android自定义View/Android中常见面试题.md)
+- [Android中常见面试题](/Android基础/Android中常见面试题.md)
 
 ### 开源框架
 
