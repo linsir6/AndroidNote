@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.0-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
 
 
-
+![](/img/android-note2.jpg)
 
 
 
