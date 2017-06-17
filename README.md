@@ -34,6 +34,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 - [自定义View入门](/Android自定义View/自定义View入门.md)
 - [自定义ViewGroup入门](/Android自定义View/自定义ViewGroup入门.md)
+- [Android事件分发机制](/Android自定义View/Android事件分发机制.md)
 - [CameraView](/Android自定义View/自定义View——CameraView.md)
 - [CheckView](/Android自定义View/自定义View——CheckView.md)
 - [CircleView](/Android自定义View/自定义View——CircleView.md)
