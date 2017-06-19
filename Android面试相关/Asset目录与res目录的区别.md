@@ -10,7 +10,7 @@
 
 读取文件资源：　
 
-　　读取res/raw下的文件资源，通过以下方式获取输入流来进行写操作
+　　读取res/raw下的文件资源，通过以下方式获取输入流来进行写操作.
 
 ```
  InputStream is =getResources().openRawResource(R.id.filename);  
