@@ -56,7 +56,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android图片三级缓存](/Android面试相关/Android图片三级缓存.md)
 - [Service保活](/Android面试相关/Service保活.md)
 - [如何提高Activity启动速度](/Android面试相关/如何提高Activity启动速度.md)
-- [如何终止App的运行](/Android面试相关/如何终止App的运行)
+- [如何终止App的运行](/Android面试相关/如何终止App的运行.md)
 - [如何实现Activity切换的动画](/Android面试相关/如何实现Activity切换的动画)
 
 ### 开源框架
