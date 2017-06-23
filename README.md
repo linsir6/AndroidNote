@@ -91,6 +91,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [大量线程的同步操作](/Java相关/Java利用ExecutorService实现同步执行大量线程.md)
 - [Java反射机制](/Java相关/Java注解的编写与Java的反射机制.md)
 - [ArrayList、LinkedList、Vector的异同](/Java相关/ArrayList、LinkedList、Vector的异同.md)
+- [Java中Error和Exception](/Java相关/Java中Error和Exception.md)
 - [Des加密算法](/Java相关/Des加密算法.md)
 
 
