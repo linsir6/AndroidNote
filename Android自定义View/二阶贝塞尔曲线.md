@@ -78,7 +78,7 @@ Android中绘制Path常用方法：
 
 二阶贝塞尔曲线效果图：
 
-![bezier](/Users/mac/Desktop/bezier.gif)
+![bezier](https://ws2.sinaimg.cn/large/006tKfTcly1fgw7fga6nkg30ay0h27iz.gif)
 
 
 
