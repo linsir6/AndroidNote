@@ -43,6 +43,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [PieView](/Android自定义View/自定义View——PieView.md)
 - [SlideslipListView](/Android自定义View/自定义view——sideslipListView.md)
 - [二阶贝塞尔曲线](/Android自定义View/二阶贝塞尔曲线.md)
+- [三阶贝塞尔曲线](/Android自定义View/三阶贝塞尔曲线.md)
 
 
 ### 面试题
