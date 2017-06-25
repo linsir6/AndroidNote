@@ -45,6 +45,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [二阶贝塞尔曲线](/Android自定义View/二阶贝塞尔曲线.md)
 - [三阶贝塞尔曲线](/Android自定义View/三阶贝塞尔曲线.md)
 - [贝塞尔曲线Demo](https://github.com/linsir6/mCustomView/tree/master/BezierDemo)
+- [具有弹性的小球](https://github.com/linsir6/mCustomView/tree/master/MagicCircle)
 
 
 ### 面试题
