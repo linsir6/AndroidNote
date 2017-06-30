@@ -22,7 +22,9 @@
 
 
 
-- 在View添加了onPress，但是在点击的时候，不会产生任何效果，View没有这样的方法，当遇到需要这样操作的方法的时候可以加入<TouchableOpacity>  </TouchableOpacity>
+- ``在View添加了onPress，但是在点击的时候，不会产生任何效果``
+
+    错误原因：View没有这样的方法，当遇到需要这样操作的方法的时候可以加入``<TouchableOpacity>  </TouchableOpacity>``
 
 
     
