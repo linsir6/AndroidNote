@@ -50,6 +50,11 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [PathMeasure](/AndroidNote/Android自定义View/PathMeasure.md)
 
 
+### 性能相关
+
+- [LeakCanary的工作过程以及原理](/AndroidNote/Android性能优化相关/LeakCanary的工作过程以及原理.md)
+
+
 ### 面试题
 
 - [Android中常见面试题](/AndroidNote/Android面试相关/Android中常见面试题.md)
