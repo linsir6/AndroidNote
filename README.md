@@ -52,7 +52,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 ### 性能相关
 
-- [LeakCanary的工作过程以及原理](/AndroidNote/Android性能优化相关/LeakCanary的工作过程以及原理.md)
+- [LeakCanary的工作过程以及原理](AndroidNote/AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
 
 
 ### 面试题
