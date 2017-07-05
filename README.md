@@ -84,7 +84,9 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Kotlin-for-android](/AndroidNote/Kotlin相关/Kotlin-for-android.md)
 
 
+## Android报错记录
 
+- [Android报错:Manifest merger failed with multiple errors, see logs](/Android/Android报错:Manifest merger failed with multiple errors, see logs.md)
 
 
 ----
