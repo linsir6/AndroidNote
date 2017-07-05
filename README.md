@@ -86,7 +86,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 ### Android报错记录
 
-- [Android报错:Manifest merger failed with multiple errors, see logs](/AndroidNote/Android报错记录/Android报错:Manifest merger failed with multiple errors, see logs.md)
+- [Android报错:Manifest-merger-failed-with-multiple-errors,see-logs](/AndroidNote/Android报错记录/Android报错:Manifest merger failed with multiple errors, see logs.md)
 
 
 ----
