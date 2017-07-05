@@ -29,6 +29,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android数据存储的五种方式](/AndroidNote/Android基础/Android数据存储的五种方式.md)
 - [Android跟随手指移动的View](/AndroidNote/Android基础/Android跟随手指移动的view.md)
 - [RecyclerView的使用](/AndroidNote/Android基础/RecyclerView的简介.md)
+- [Android获取SHA1](/AndroidNote/Android基础/Android获取SHA1.md)
 
 
 ### 自定义View
