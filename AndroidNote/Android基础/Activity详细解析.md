@@ -59,7 +59,7 @@
  - activity的前后台切换会在 onResume() 调用和 onPause() 之间发生。
  因为这个状态可能会经常发生转换，为了避免切换迟缓引起的用户等待，这两个方法中的代码应该相当地轻量化。
 
-##  activity被回收的状态和信息保存和恢复过程
+## activity被回收的状态和信息保存和恢复过程
 
 ```
 public class MainActivity extends Activity {
@@ -108,13 +108,13 @@ protected void onRestoreInstanceState(Bundle savedInstanceState) {
 
 　　onPostCreate：一般不实现这个方法，当程序的代码开始运行时，它调用系统做最后的初始化工作。
 
-#启动模式
+# 启动模式
 
-##启动模式什么？
+## 启动模式什么？
 　　
 　　简单的说就是定义activity 实例与task 的关联方式。
 　　
-##为什么要定义启动模式？ 
+## 为什么要定义启动模式？ 
 
 　　 为了实现一些默认启动（standard）模式之外的需求：
 　　 
@@ -187,7 +187,7 @@ protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		startActivity(i);
 ```
 
-####可以通过标志修改的默认模式有哪些？
+#### 可以通过标志修改的默认模式有哪些？
 
 　　　
 
@@ -213,9 +213,9 @@ protected void onRestoreInstanceState(Bundle savedInstanceState) {
 　　android的3个核心组件——Activity、services、广播接收器——是通过intent传递消息的。intent消息用于在运行时绑定不同的组件。
 　　在 Android 的 AndroidManifest.xml 配置文件中可以通过 intent-filter 节点为一个 Activity 指定其 Intent Filter，以便告诉系统该 Activity 可以响应什么类型的 Intent。
 
-##intent-filter 的三大属性
+## intent-filter 的三大属性
 
-###Action 
+### Action 
 
 　　一个 Intent Filter 可以包含多个 Action，Action 列表用于标示 Activity 所能接受的“动作”，它是一个用户自定义的字符串。
 
@@ -237,7 +237,7 @@ i.setAction("com.scu.amazing7Action");
 ```
 Action 列表中包含了“com.scu.amazing7Action”的 Activity 都将会匹配成功
 
-###URL
+### URL
 
 　　在 intent-filter 节点中，通过 data节点匹配外部数据，也就是通过 URI 携带外部数据给目标组件。
 
@@ -252,7 +252,7 @@ Action 列表中包含了“com.scu.amazing7Action”的 Activity 都将会匹�
 ```
 注意：只有data的所有的属性都匹配成功时 URI 数据匹配才会成功
 
-###Category 
+### Category 
 
 　　为组件定义一个 类别列表，当 Intent 中包含这个类别列表的所有项目时才会匹配成功。
 
@@ -263,7 +263,7 @@ Action 列表中包含了“com.scu.amazing7Action”的 Activity 都将会匹�
 </intent-filter>
 ```
 
-##Activity 种 Intent Filter 的匹配过程
+## Activity 种 Intent Filter 的匹配过程
 
 　　①加载所有的Intent Filter列表
 　　②去掉action匹配失败的Intent Filter
