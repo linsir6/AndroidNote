@@ -80,6 +80,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [RxJava+retrofit2](/AndroidNote/Android开源框架相关/RxJava+retrofit2实现安卓中网络操作.md)
 - [LinLog](/AndroidNote/Android开源框架相关/一款Android的Log、Toast的库.md)
 - [Retrofit 2.0 使用教程](http://www.jianshu.com/p/a3e162261ab6)
+- [retrofit 2.0 源码解析](http://www.jianshu.com/p/0c055ad46b6c)
 
 
 ### 打包
