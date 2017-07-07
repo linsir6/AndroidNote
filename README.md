@@ -57,6 +57,8 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 ### 面试题
 
+  [**Java面试相关**](https://github.com/linsir6/JavaNote)
+
 - [Android中常见面试题](/AndroidNote/Android面试相关/Android中常见面试题.md)
 - [Android 5.0 6.0 7.0新特性](/AndroidNote/Android面试相关/Android5.0-6.0-7.0新特性.md)
 - [Android中弱引用与软引用](/AndroidNote/Android面试相关/Android中弱引用与软引用.md)
@@ -123,5 +125,3 @@ Unless required by applicable law or agreed to in writing, software distributed 
 **已经看到这里啦，不妨给个star~**
 
 ![](/AndroidNote/img/background.jpg)
-
-
