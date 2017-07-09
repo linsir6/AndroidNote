@@ -32,6 +32,10 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android获取SHA1](/AndroidNote/Android基础/Android获取SHA1.md)
 
 
+### Android进阶
+
+- [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
+
 ### 自定义View
 
 - [自定义View入门](/AndroidNote/Android自定义View/自定义View入门.md)
