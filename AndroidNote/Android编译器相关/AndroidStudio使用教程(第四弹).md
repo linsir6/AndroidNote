@@ -6,7 +6,8 @@
 Gradle
 ---
 
-讲解到这里我感觉有必要说明一下`Gradle`。       
+讲解到这里我感觉有必要说明一下`Gradle`。
+       
 `Gradle`是一个基于`Apache Ant`和`Apache Maven`概念的项目自动化建构工具。它使用一种基于`Groovy`的特定领域语言来声明项目设置，而不是传统的`XML`.      
 更多介绍请直接参考[Gradle](http://www.gradle.org/)或`Google`搜索。
 
