@@ -35,6 +35,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 ### Android进阶
 
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
+- [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
 
 ### 自定义View
 
