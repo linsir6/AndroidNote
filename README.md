@@ -37,7 +37,8 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
 - [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
 - [Android项目总结](/AndroidNote/Android进阶/Android项目总结.md)
-- [自定义RadioGroup.md](/AndroidNote/Android进阶/自定义RadioGroup.md)
+- [自定义RadioGroup](/AndroidNote/Android进阶/自定义RadioGroup.md)
+- [Android导入项目一直在Building的解决方案](/AndroidNote/Android进阶/AndroidStudio导入工程一直在Building的解决方案.md)
 
 
 ### 自定义View
@@ -118,6 +119,8 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 ### Android报错记录
 
 - [Android报错:Manifest-merger-failed-with-multiple-errors,see-logs](https://github.com/linsir6/AndroidNote/blob/master/AndroidNote/Android%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%95/Android%E6%8A%A5%E9%94%99-Manifest%20merger%20failed%20with%20multiple%20errors%2C%20see%20logs.md)
+
+
 
 
 ----
