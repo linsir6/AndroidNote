@@ -30,7 +30,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android跟随手指移动的View](/AndroidNote/Android基础/Android跟随手指移动的view.md)
 - [RecyclerView的使用](/AndroidNote/Android基础/RecyclerView的简介.md)
 - [Android获取SHA1](/AndroidNote/Android基础/Android获取SHA1.md)
-
+- [Recyclerview和Listview的异同.md](/AndroidNote/Android进阶/Recyclerview和Listview的异同.md)
 
 ### Android进阶
 
