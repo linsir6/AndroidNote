@@ -37,12 +37,14 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
 - [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
 - [Android项目总结](/AndroidNote/Android进阶/Android项目总结.md)
+- [Android项目总结2](/AndroidNote/Android进阶/Android项目总结.md)
 - [自定义RadioGroup](/AndroidNote/Android进阶/自定义RadioGroup.md)
 - [Android导入项目一直在Building的解决方案](/AndroidNote/Android进阶/AndroidStudio导入工程一直在Building的解决方案.md)
 - [SSH原理与应用](/AndroidNote/Android进阶/SSH原理与应用.md)
 - [基于TOTP的双向认证算法](/AndroidNote/Android进阶/基于OTP算法的双向认证.md)
 - [Android内存泄漏总结.md](/AndroidNote/Android进阶/Android内存泄漏总结.md)
 - [Handler引起的内存泄漏的案例与分析](/AndroidNote/Android进阶/Handler引起的内存泄漏以及分析.md)
+
 
 ### 自定义View
 
