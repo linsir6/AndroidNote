@@ -44,6 +44,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [基于TOTP的双向认证算法](/AndroidNote/Android进阶/基于OTP算法的双向认证.md)
 - [Android内存泄漏总结.md](/AndroidNote/Android进阶/Android内存泄漏总结.md)
 - [Handler引起的内存泄漏的案例与分析](/AndroidNote/Android进阶/Handler引起的内存泄漏以及分析.md)
+- [Android性能优化.md](/AndroidNote/Android进阶/Android性能优化.md)
 
 
 ### 自定义View
