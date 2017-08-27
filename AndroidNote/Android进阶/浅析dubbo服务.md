@@ -3,6 +3,7 @@
 > Dubbo是阿里开源的一个分布式服务框架，致力于提供高性能和透明化的RPC远程调用方案，以及SOA服务治理方案。
 > Dubbo是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。Dubbo是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，以及SOA服务治理方案。
 
+
 ##  转变的历程
 
 1. 单一应用框架(ORM)
@@ -73,6 +74,25 @@ RPC采用客户机/服务器模式。请求程序就是一个客户机，而服�
 - 一款分布式服务框架
 - 高性能和透明化的RPC远程服务调用方案
 - SOA服务治理方案
+
+> Dubbo是一个分布式服务框架，以及SOA治理方案。其功能主要包括：高性能NIO通讯及多协议集成，服务动态寻址与路由，软负载均衡与容错，依赖分析与降级等。 
+
+### Dubbo适用于哪些场景
+
+当网站变大后，不可避免的需要拆分应用进行服务化，以提高开发效率，调优性能，节省关键竞争资源等。 
+
+当服务越来越多时，服务的URL地址信息就会爆炸式增长，配置管理变得非常困难，F5硬件负载均衡器的单点压力也越来越大。 
+
+当进一步发展，服务间依赖关系变得错踪复杂，甚至分不清哪个应用要在哪个应用之前启动，架构师都不能完整的描述应用的架构关系。 
+
+接着，服务的调用量越来越大，服务的容量问题就暴露出来，这个服务需要多少机器支撑？什么时候该加机器？等等…… 
+
+在遇到这些问题时，都可以用Dubbo来解决。 
+
+### Dubbo的设计思路
+
+该框架具有极高的扩展性，采用微核+插件体系，并且文档齐全，很方便二次开发，适应性极强。 
+
 
 ### Dubbo架构
 
@@ -303,38 +323,43 @@ value   ::=null
 
 #### 可序列化的类型
 
-1.原始二进制数据
-2.boolean
-3.64-bit date
-4.64-bit double
-5.32-bit int
-6.64-bit long
-7.null
-8.UTF8编码的string
+1. 原始二进制数据
+2. boolean
+3. 64-bit date
+4. 64-bit double
+5. 32-bit int
+6. 64-bit long
+7. null
+8. UTF8编码的string
 
 另外包括3种递归类型：
 
-1.list for lists and arrays
-2.map for maps and dictionaries
-3.object for objects
+1. list for lists and arrays
+2. map for maps and dictionaries
+3. object for objects
 
 最后，它还包含一个特殊的类型：
 
-1.ref 用来表示对共享对象的引用.
+1. ref 用来表示对共享对象的引用.
 
 Hessian 2.0有3个内部的引用表:
 
-1.一个object/list 引用表.
-2.一个类型定义(class definition)引用表.
-3.一个type(class name)引用表.
+1. 一个object/list 引用表.
+2. 一个类型定义(class definition)引用表.
+3. 一个type(class name)引用表.
 
 
 
 ## 参考文献
 
 [什么是Hessian协议呢？](http://www.cnblogs.com/caogang/p/4598406.html)
+
 [hessian学习基础篇——序列化和反序列化](http://lionbule.iteye.com/blog/523355)
+
 [Dubbo原理解析](http://blog.csdn.net/column/details/learningdubbo.html?&page=1)
+
 [Dubbo入门基础与实例讲解](http://blog.csdn.net/Evankaka/article/details/48009645)
+
+
 
 
