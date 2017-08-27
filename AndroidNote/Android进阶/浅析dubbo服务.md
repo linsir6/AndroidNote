@@ -1,6 +1,7 @@
 # 浅析Dubbo服务
 
 > Dubbo是阿里开源的一个分布式服务框架，致力于提供高性能和透明化的RPC远程调用方案，以及SOA服务治理方案。
+> Dubbo是阿里巴巴SOA服务化治理方案的核心框架，每天为2,000+个服务提供3,000,000,000+次访问量支持，并被广泛应用于阿里巴巴集团的各成员站点。Dubbo是一个分布式服务框架，致力于提供高性能和透明化的RPC远程服务调用方案，以及SOA服务治理方案。
 
 ##  转变的历程
 
@@ -328,5 +329,12 @@ Hessian 2.0有3个内部的引用表:
 3.一个type(class name)引用表.
 
 
+
+## 参考文献
+
+[什么是Hessian协议呢？](http://www.cnblogs.com/caogang/p/4598406.html)
+[hessian学习基础篇——序列化和反序列化](http://lionbule.iteye.com/blog/523355)
+[Dubbo原理解析](http://blog.csdn.net/column/details/learningdubbo.html?&page=1)
+[Dubbo入门基础与实例讲解](http://blog.csdn.net/Evankaka/article/details/48009645)
 
 
