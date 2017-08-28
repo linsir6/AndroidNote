@@ -1,20 +1,21 @@
-# Android—Note
+# Android-Note
 
-[![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.0-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
+[![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.3-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
 
 
 ![](/AndroidNote/img/android-note2.jpg)
 
 
+**Android-Note里面记录了有关Android的常用基础知识、面试中经常被问到的知识点、Android进阶必备的知识。**
 
+Android-Note同时是博主的一个学习笔记，之前博主尝试着维护多个学习笔记的项目，但是由于项目过多，不易于维护，故准备，暂时将一些其它内容的笔记也记录在这个项目中。
 
-Android-Note里面记录了有关Android的常用基础知识、面试中经常被问到的知识点、Android进阶必备的知识。
-
+博主目前从事的工作是Android开发，但是对IOS开发，Java，Python，Node，Go，Vim，网络协议有着较为浓厚的兴趣，所以也会将一些学习的笔记记录在这里，欢迎大家和我一起讨论。
 
 
 ## Android
 
-## 基础
+### 基础
 
 - [Activity详细解析](/AndroidNote/Android基础/Activity详细解析.md)
 - [Service详细解析](/AndroidNote/Android基础/Service详细解析.md)
@@ -47,6 +48,7 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 - [Android性能优化.md](/AndroidNote/Android进阶/Android性能优化.md)
 - [浅析dubbo服务](/AndroidNote/Android进阶/浅析dubbo服务.md)
 - [浅析Hessian协议](/AndroidNote/Android进阶/浅析Hessian协议.md)
+- [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
 
 
 ### 自定义View
@@ -79,9 +81,9 @@ Android-Note里面记录了有关Android的常用基础知识、面试中经常�
 
 
 
-### 性能相关
 
-- [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
+
+### 性能相关
 
 
 ### 面试题
