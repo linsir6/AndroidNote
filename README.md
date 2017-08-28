@@ -166,12 +166,12 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ## Mac-Note
 
-- [mac上常用命令](/mac相关/mac上常用命令.md)
-- [mac上安装java1.8](/mac相关/如何在mac上安装java1-8.md)
-- [mac上重置MySQL密码](/mac相关/Mac平台重新设置MySQL的root密码.md)
-- [mac终端与服务器保持连接](/mac相关/mac终端与服务器保持连接.md)
-- [nodejs与npm的更新](/mac相关/nodejs与npm的更新.md)
-- [mac本地生成ssh-key](/mac相关/mac本地生成ssh-key.md)
+- [mac上常用命令](/MacNote/mac相关/mac上常用命令.md)
+- [mac上安装java1.8](/MacNote/mac相关/如何在mac上安装java1-8.md)
+- [mac上重置MySQL密码](/MacNote/mac相关/Mac平台重新设置MySQL的root密码.md)
+- [mac终端与服务器保持连接](/MacNote/mac相关/mac终端与服务器保持连接.md)
+- [nodejs与npm的更新](/MacNote/mac相关/nodejs与npm的更新.md)
+- [mac本地生成ssh-key](/MacNote/mac相关/mac本地生成ssh-key.md)
 
 
 ----
@@ -193,8 +193,8 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ### 基础
 
-- [简单的Shell脚本](/ScriptNote/脚本相关/简单的Shell脚本.md)
-- [一篇文章学懂Shell脚本](/ScriptNote/脚本相关/一篇文章学懂Shell脚本.md)
+- [简单的Shell脚本](/ScriptNote/简单的Shell脚本.md)
+- [一篇文章学懂Shell脚本](/ScriptNote/一篇文章学懂Shell脚本.md)
 
 
 
@@ -202,8 +202,8 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 
 
-- [GitHub基础操作](/ScriptNote/脚本相关/GitHub基础操作.md)
-- [封装一些GitHub常用命令](/ScriptNote/脚本相关/封装一些GitHub常用命令.md)
+- [GitHub基础操作](/ScriptNote/GitHub基础操作.md)
+- [封装一些GitHub常用命令](/ScriptNote/封装一些GitHub常用命令.md)
 
 
 
