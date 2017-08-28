@@ -166,12 +166,12 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ## Mac-Note
 
-- [mac上常用命令](/MacNote/mac相关/mac上常用命令.md)
-- [mac上安装java1.8](/MacNote/mac相关/如何在mac上安装java1-8.md)
-- [mac上重置MySQL密码](/MacNote/mac相关/Mac平台重新设置MySQL的root密码.md)
-- [mac终端与服务器保持连接](/MacNote/mac相关/mac终端与服务器保持连接.md)
-- [nodejs与npm的更新](/MacNote/mac相关/nodejs与npm的更新.md)
-- [mac本地生成ssh-key](/MacNote/mac相关/mac本地生成ssh-key.md)
+- [mac上常用命令](/MacNote/mac上常用命令.md)
+- [mac上安装java1.8](/MacNote/如何在mac上安装java1-8.md)
+- [mac上重置MySQL密码](/MacNote/Mac平台重新设置MySQL的root密码.md)
+- [mac终端与服务器保持连接](/MacNote/mac终端与服务器保持连接.md)
+- [nodejs与npm的更新](/MacNote/nodejs与npm的更新.md)
+- [mac本地生成ssh-key](/MacNote/mac本地生成ssh-key.md)
 
 
 ----
