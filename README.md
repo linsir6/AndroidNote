@@ -1,21 +1,20 @@
-# Android-Note
+# Android—Note
 
-[![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.3-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
+[![Travis](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/linsir6) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub (pre-)release](https://img.shields.io/badge/release-v1.0.0-ff69b4.svg)](https://github.com/linsir6/Android-Notes/releases) [![User](https://img.shields.io/badge/user-linsir-yellow.svg)](https://github.com/linsir6)
 
 
 ![](/AndroidNote/img/android-note2.jpg)
 
 
-**Android-Note里面记录了有关Android的常用基础知识、面试中经常被问到的知识点、Android进阶必备的知识。**
 
-Android-Note同时是博主的一个学习笔记，之前博主尝试着维护多个学习笔记的项目，但是由于项目过多，不易于维护，故准备，暂时将一些其它内容的笔记也记录在这个项目中。
 
-博主目前从事的工作是Android开发，但是对IOS开发，Java，Python，Node，Go，Vim，网络协议有着较为浓厚的兴趣，所以也会将一些学习的笔记记录在这里，欢迎大家和我一起讨论。
+Android-Note里面记录了有关Android的常用基础知识、面试中经常被问到的知识点、Android进阶必备的知识。
+
 
 
 ## Android
 
-### 基础
+## 基础
 
 - [Activity详细解析](/AndroidNote/Android基础/Activity详细解析.md)
 - [Service详细解析](/AndroidNote/Android基础/Service详细解析.md)
@@ -48,7 +47,6 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android性能优化.md](/AndroidNote/Android进阶/Android性能优化.md)
 - [浅析dubbo服务](/AndroidNote/Android进阶/浅析dubbo服务.md)
 - [浅析Hessian协议](/AndroidNote/Android进阶/浅析Hessian协议.md)
-- [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
 
 
 ### 自定义View
@@ -80,6 +78,10 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android-studio使用教程7](/AndroidNote/Android编译器相关/AndroidStudio使用教程(第七弹).md)
 
 
+
+### 性能相关
+
+- [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
 
 
 ### 面试题
@@ -127,109 +129,33 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android报错:Manifest-merger-failed-with-multiple-errors,see-logs](https://github.com/linsir6/AndroidNote/blob/master/AndroidNote/Android%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%95/Android%E6%8A%A5%E9%94%99-Manifest%20merger%20failed%20with%20multiple%20errors%2C%20see%20logs.md)
 
 
-----
-
-
-## IOS-Note
-
-- [Ios上架app需要的图标尺寸](/IOSNote/Ios上架app需要的图标尺寸.md)
 
 
 ----
 
+# Getting Help
 
-## Java-Note
-
-### 设计模式相关
-
-- [设计模式概括](/JavaNote/设计模式相关/设计模式概括.md)
-- [单例模式](/JavaNote/设计模式相关/单例模式.md)
-- [单利模式的四种实现方式](/JavaNote/设计模式相关/单例模式的四种实现方式.md)
-- [观察者模式](/JavaNote/设计模式相关/观察者模式.md)
-
-
-### Java相关
-
-- [Java回调原理与实现1](/JavaNote/Java相关/Java回调的原理与实现.md)
-- [Java回调原理与实现2](/JavaNote/Java相关/Java利用listener实现回调，即观察者模式.md)
-- [大量线程的同步操作](/JavaNote/Java相关/Java利用ExecutorService实现同步执行大量线程.md)
-- [Java反射机制](/JavaNote/Java相关/Java注解的编写与Java的反射机制.md)
-- [ArrayList、LinkedList、Vector的异同](/JavaNote/Java相关/ArrayList、LinkedList、Vector的异同.md)
-- [Java中Error和Exception](/JavaNote/Java相关/Java中Error和Exception.md)
-- [Des加密算法](/JavaNote/Java相关/Des加密算法.md)
-- [HashTable和HashMap的异同](/JavaNote/Java相关/HashTable和HashMap的异同.md)
+To report a specific problem or feature request, open a new issue on Github. For questions, suggestions, or anything else, email linsir678@gmail.com.
 
 
 
-----
+# Author
 
+关玮琳linSir - @[linsir6](https://github.com/linsir6) on GitHub, @[linsir.top](http://linsir.top)
 
-## Mac-Note
+# License
 
-- [mac上常用命令](/MacNote/mac上常用命令.md)
-- [mac上安装java1.8](/MacNote/如何在mac上安装java1-8.md)
-- [mac上重置MySQL密码](/MacNote/Mac平台重新设置MySQL的root密码.md)
-- [mac终端与服务器保持连接](/MacNote/mac终端与服务器保持连接.md)
-- [nodejs与npm的更新](/MacNote/nodejs与npm的更新.md)
-- [mac本地生成ssh-key](/MacNote/mac本地生成ssh-key.md)
+Copyright 2017 linsir
 
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-----
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-
-## ReactNative-Note
-
-- [ReactNative入门](/ReactNative相关/ReactNative入门.md)
-- [短信验证码倒计时控件](/ReactNative相关/短信验证码倒计时控件.md)
-- [ReactNative报错记录](/ReactNative相关/ReactNative报错记录.md)
-- [ReactNative利用CodePush实现热更新](/ReactNative相关/ReactNative利用CodePush实现热更新.md)
-- [Touchable系列组建讲解](/ReactNative相关/Touchable系列组建讲解.md)
-- [ReactNative调试心得](/ReactNative相关/ReactNative调试心得.md)
-- [React/React Native 的ES5 ES6写法对照表](https://github.com/linsir6/ReactNativeNote/blob/master/ReactNative%E7%9B%B8%E5%85%B3/React%20Native%20%E7%9A%84ES5%20ES6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8.md)
-
-----
-
-## Script-Note
-
-### 基础
-
-- [简单的Shell脚本](/ScriptNote/简单的Shell脚本.md)
-- [一篇文章学懂Shell脚本](/ScriptNote/一篇文章学懂Shell脚本.md)
-- [GitHub基础操作](/ScriptNote/GitHub基础操作.md)
-- [封装一些GitHub常用命令](/ScriptNote/封装一些GitHub常用命令.md)
-
-
-----
-
-## Web-Note
-
-### NodeJS相关
-
-- [淘宝cnpm](/WebNote/NodeJS相关/淘宝cnpm.md)
-- [koa框架对post内容读取并解析](/WebNote/NodeJS相关/koa框架对post内容读取并解析.md)
-- [nodejs查询数据库后将值返回前端](/WebNote/NodeJS相关/nodejs查询数据库后将值返回前端.md)
-- [nodejs项目在云服务器的部署](/WebNote/NodeJS相关/nodejs项目在云服务器的部署.md)
-
-----
-
-### MySQL相关
-
-- [linux下安装MySQL](/WebNote/MySQL相关/云服务器linux下安装MySQL.md)
-- [MySQL基础操作](/WebNote/MySQL相关/mysql基础操作.md)
-- [MySQL导出数据库、表](/WebNote/MySQL相关/Mysql导出数据库、表(有无数据).md)
-- [Error-ER_TRUNCATED_WRONG_VALUE_FOR_FIELD](/WebNote/MySQL相关/Error--ER_TRUNCATED_WRONG_VALUE_FOR_FIELD.md)
-- [ERROR-1045-(28000)--Access-denied-for-user-'debian-sys-maint'@'localhost](/WebNote/MySQL相关/ERROR-1045-(28000)--Access-denied-for-user-'debian-sys-maint'@'localho.md)
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
 
+# PS
+**已经看到这里啦，不妨给个star~**
 
-
-
-
-
-
-
-
-
-
-
+![](/AndroidNote/img/background.jpg)
