@@ -187,7 +187,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [ReactNative调试心得](/ReactNative相关/ReactNative调试心得.md)
 - [React/React Native 的ES5 ES6写法对照表](https://github.com/linsir6/ReactNativeNote/blob/master/ReactNative%E7%9B%B8%E5%85%B3/React%20Native%20%E7%9A%84ES5%20ES6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8.md)
 
-
+----
 
 ## Script-Note
 
@@ -195,15 +195,30 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 - [简单的Shell脚本](/ScriptNote/简单的Shell脚本.md)
 - [一篇文章学懂Shell脚本](/ScriptNote/一篇文章学懂Shell脚本.md)
-
-
-
-### GitHub相关
-
-
-
 - [GitHub基础操作](/ScriptNote/GitHub基础操作.md)
 - [封装一些GitHub常用命令](/ScriptNote/封装一些GitHub常用命令.md)
+
+
+----
+
+## Web-Note
+
+### NodeJS相关
+
+- [淘宝cnpm](/WebNote/NodeJS相关/淘宝cnpm.md)
+- [koa框架对post内容读取并解析](/WebNote/NodeJS相关/koa框架对post内容读取并解析.md)
+- [nodejs查询数据库后将值返回前端](/WebNote/NodeJS相关/nodejs查询数据库后将值返回前端.md)
+- [nodejs项目在云服务器的部署](/WebNote/NodeJS相关/nodejs项目在云服务器的部署.md)
+
+----
+
+### MySQL相关
+
+- [linux下安装MySQL](/WebNote/MySQL相关/云服务器linux下安装MySQL.md)
+- [MySQL基础操作](/WebNote/MySQL相关/mysql基础操作.md)
+- [MySQL导出数据库、表](/WebNote/MySQL相关/Mysql导出数据库、表(有无数据).md)
+- [Error-ER_TRUNCATED_WRONG_VALUE_FOR_FIELD](/WebNote/MySQL相关/Error--ER_TRUNCATED_WRONG_VALUE_FOR_FIELD.md)
+- [ERROR-1045-(28000)--Access-denied-for-user-'debian-sys-maint'@'localhost](/WebNote/MySQL相关/ERROR-1045-(28000)--Access-denied-for-user-'debian-sys-maint'@'localho.md)
 
 
 
