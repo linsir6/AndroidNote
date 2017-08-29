@@ -41,19 +41,17 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android项目总结2](/AndroidNote/Android进阶/Android项目总结2.md)
 - [自定义RadioGroup](/AndroidNote/Android进阶/自定义RadioGroup.md)
 - [Android导入项目一直在Building的解决方案](/AndroidNote/Android进阶/AndroidStudio导入工程一直在Building的解决方案.md)
-- [SSH原理与应用](/AndroidNote/Android进阶/SSH原理与应用.md)
 - [基于TOTP的双向认证算法](/AndroidNote/Android进阶/基于OTP算法的双向认证.md)
 - [Android内存泄漏总结.md](/AndroidNote/Android进阶/Android内存泄漏总结.md)
 - [Handler引起的内存泄漏的案例与分析](/AndroidNote/Android进阶/Handler引起的内存泄漏以及分析.md)
 - [Android性能优化.md](/AndroidNote/Android进阶/Android性能优化.md)
-- [浅析dubbo服务](/AndroidNote/Android进阶/浅析dubbo服务.md)
-- [浅析Hessian协议](/AndroidNote/Android进阶/浅析Hessian协议.md)
 - [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
 
 
 ### 自定义View
 
 - [自定义View入门](/AndroidNote/Android自定义View/自定义View入门.md)
+- [自定义view详细教程](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547668&idx=1&sn=b2667c46188c6674c90aa72c2fba4719&scene=21#wechat_redirect)
 - [自定义ViewGroup入门](/AndroidNote/Android自定义View/自定义ViewGroup入门.md)
 - [Android事件分发机制](/AndroidNote/Android自定义View/Android事件分发机制.md)
 - [CameraView](/AndroidNote/Android自定义View/自定义View——CameraView.md)
