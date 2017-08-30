@@ -49,6 +49,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
 - [AIDL的具体实现流程](http://bbs.51cto.com/thread-1086040-1.html)
 - [Android中利用异步来优化处理速度](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401555104&idx=1&sn=501e6158e6eb26b4e86467be01fd290e&scene=21#wechat_redirect)
+- [为什么选择Binder实现Android中跨进程通信](http://blog.csdn.net/mynameishuangshuai/article/details/51783303)
 
 
 ### 自定义View
