@@ -20,6 +20,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Activity详细解析](/AndroidNote/Android基础/Activity详细解析.md)
 - [Service详细解析](/AndroidNote/Android基础/Service详细解析.md)
 - [IntentService详细解析](/AndroidNote/Android基础/IntentService详细解析.md)
+- [IntentService原理解析文章](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401611665&idx=1&sn=9b6b1f2924d4adfe4e89a322ab53df9c&scene=21#wechat_redirect)
 - [ContentProvider实例详解](/AndroidNote/Android基础/ContentProvider实例详解.md)
 - [BroadcastReceiver详细解析](/AndroidNote/Android基础/BroadcastReceiver详细解析.md)
 - [Android异步任务机制之AsycTask](/AndroidNote/Android基础/Android异步任务机制之AsycTask.md)
