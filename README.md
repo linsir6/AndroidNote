@@ -56,7 +56,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [携程App的网络性能优化实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547359&idx=1&sn=9f069a28f5dbe73fb6c241cfa1049571&scene=21#wechat_redirect)
 - [途牛插件化原理](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547401&idx=1&sn=e615735d600f987a7f769f7e278d0840&scene=21#wechat_redirect)
 - [Android分包原理](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547390&idx=1&sn=1fae14b1753e437a032640be81c475b8&scene=21#wechat_redirect)
-
+- [插件化实现的思想](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547660&idx=1&sn=d2764b282fdf1c1fdb629f9c2ca9b10f&scene=21#wechat_redirect)
 
 
 
