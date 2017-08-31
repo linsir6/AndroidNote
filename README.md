@@ -51,6 +51,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android中利用异步来优化处理速度](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401555104&idx=1&sn=501e6158e6eb26b4e86467be01fd290e&scene=21#wechat_redirect)
 - [为什么选择Binder实现Android中跨进程通信](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548116&idx=1&sn=d11a131871623110c74e3676d4fcf785&chksm=f1180e29c66f873f9cac5dc104f97fae319c1831219a9fd9458a4429f16562f6712cc7f65a4c&scene=21#wechat_redirect)
 - [三大图片缓存框架的对比](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547344&idx=2&sn=e3fa99b52055a37202634fe61a62d439&scene=21#wechat_redirect)
+- [SVG图片在Android中的应用](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548366&idx=1&sn=6cbdf8652ec139859d9be01444e1ad3b&chksm=f1180d33c66f8425a286de4fd5f03aa89308add3593529a91356439cb8c2f8542305561034c8&scene=21#wechat_redirect)
 
 
 ### 自定义View
