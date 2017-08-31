@@ -93,6 +93,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
   [**Java面试相关**](https://github.com/linsir6/JavaNote)
 
+- [十大基础算法](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401441966&idx=1&sn=653fe22c5a7e6c221fbf121124fd18a2&scene=21#wechat_redirect)
 - [一套比较好的面试题](http://blog.csdn.net/xhmj12/article/details/54730883)
 - [Android中常见面试题](/AndroidNote/Android面试相关/Android中常见面试题.md)
 - [一套比较完整的面试题](/AndroidNote/Android面试相关/面试题.md)
