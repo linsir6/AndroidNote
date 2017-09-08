@@ -37,6 +37,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ### Android进阶
 
+- [Android官网建议代码规范.md](https://source.android.com/source/code-style#java-language-rules)
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
 - [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
 - [Android项目总结](/AndroidNote/Android进阶/Android项目总结.md)
