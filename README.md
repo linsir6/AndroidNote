@@ -59,6 +59,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android分包原理](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547390&idx=1&sn=1fae14b1753e437a032640be81c475b8&scene=21#wechat_redirect)
 - [插件化实现的思想](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547660&idx=1&sn=d2764b282fdf1c1fdb629f9c2ca9b10f&scene=21#wechat_redirect)
 - [Android 7.0新特性总结](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548427&idx=1&sn=df9956d131a6da5f29292cd05a61b16e&chksm=f1180df6c66f84e0097eea33bba6abb125b6bcd6847720a7c481a85001a52ae2e4b1941690eb&scene=21#wechat_redirect)
+- [RecyclerView局部刷新的坑](http://blog.csdn.net/jdsjlzx/article/details/52893469)
 
 
 
