@@ -34,6 +34,8 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android获取SHA1](/AndroidNote/Android基础/Android获取SHA1.md)
 - [Recyclerview和Listview的异同.md](/AndroidNote/Android进阶/Recyclerview和Listview的异同.md)
 - [初识ConstraintLayout](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548068&idx=1&sn=f750ae79c9458f89c3cf85f7573ba579&scene=21#wechat_redirect)
+- [TabLayout记录](/AndroidNote/Android基础/tablayout记录.md)
+
 
 ### Android进阶
 
@@ -144,6 +146,13 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ----
 
+## Git教程
+
+- [Git详细教程](/Git/git详细教程.md)
+
+
+----
+
 
 ## IOS-Note
 
@@ -247,15 +256,3 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [浅析RPC协议](/网络协议/浅析RPC协议.md)
 - [浅析dubbo服务](/网络协议/浅析dubbo服务.md)
 - [SSH原理与应用](/网络协议/SSH原理与应用.md)
-
-
-
-
-
-
-
-
-
-
-
-
