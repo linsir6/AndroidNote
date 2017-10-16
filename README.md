@@ -39,7 +39,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ### Android进阶
 
-- [Android官网建议代码规范.md](https://source.android.com/source/code-style#java-language-rules)
+- [Android官网建议代码规范](https://source.android.com/source/code-style#java-language-rules)
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
 - [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
 - [Android项目总结](/AndroidNote/Android进阶/Android项目总结.md)
@@ -62,7 +62,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [插件化实现的思想](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547660&idx=1&sn=d2764b282fdf1c1fdb629f9c2ca9b10f&scene=21#wechat_redirect)
 - [Android 7.0新特性总结](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548427&idx=1&sn=df9956d131a6da5f29292cd05a61b16e&chksm=f1180df6c66f84e0097eea33bba6abb125b6bcd6847720a7c481a85001a52ae2e4b1941690eb&scene=21#wechat_redirect)
 - [RecyclerView局部刷新的坑](http://blog.csdn.net/jdsjlzx/article/details/52893469)
-
+- [Android单元测试](https://tech.meituan.com/Android_unit_test.html)
 
 
 ### 自定义View
@@ -256,8 +256,3 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [浅析RPC协议](/网络协议/浅析RPC协议.md)
 - [浅析dubbo服务](/网络协议/浅析dubbo服务.md)
 - [SSH原理与应用](/网络协议/SSH原理与应用.md)
-
-
-//test
-
-
