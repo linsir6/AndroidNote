@@ -39,6 +39,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ### Android进阶
 
+
 - [Android官网建议代码规范](https://source.android.com/source/code-style#java-language-rules)
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
 - [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
@@ -101,6 +102,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
   [**Java面试相关**](https://github.com/linsir6/JavaNote)
 
+- [字符编码笔记：ASCII，Unicode和UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
 - [十大基础算法](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401441966&idx=1&sn=653fe22c5a7e6c221fbf121124fd18a2&scene=21#wechat_redirect)
 - [一套比较好的面试题](http://blog.csdn.net/xhmj12/article/details/54730883)
 - [Android中常见面试题](/AndroidNote/Android面试相关/Android中常见面试题.md)
