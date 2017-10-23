@@ -65,6 +65,8 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [RecyclerView局部刷新的坑](http://blog.csdn.net/jdsjlzx/article/details/52893469)
 - [Android单元测试](https://tech.meituan.com/Android_unit_test.html)
 - [gradle 详解——你真的了解Gradle吗？](http://blog.csdn.net/u013132758/article/details/52355915)
+- [AndroidStudio-Gradle多渠道打包](http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/)
+
 
 
 ### 自定义View
