@@ -64,6 +64,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android 7.0新特性总结](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548427&idx=1&sn=df9956d131a6da5f29292cd05a61b16e&chksm=f1180df6c66f84e0097eea33bba6abb125b6bcd6847720a7c481a85001a52ae2e4b1941690eb&scene=21#wechat_redirect)
 - [RecyclerView局部刷新的坑](http://blog.csdn.net/jdsjlzx/article/details/52893469)
 - [Android单元测试](https://tech.meituan.com/Android_unit_test.html)
+- [gradle 详解——你真的了解Gradle吗？](http://blog.csdn.net/u013132758/article/details/52355915)
 
 
 ### 自定义View
