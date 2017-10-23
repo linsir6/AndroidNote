@@ -66,7 +66,8 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android单元测试](https://tech.meituan.com/Android_unit_test.html)
 - [gradle 详解——你真的了解Gradle吗？](http://blog.csdn.net/u013132758/article/details/52355915)
 - [AndroidStudio-Gradle多渠道打包](http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/)
-
+- [Android基础入门教程——8.1.1 Android中的13种Drawable小结 Part 1](http://blog.csdn.net/coder_pig/article/details/49006217)
+- [Android基础入门教程——8.1.2 Android中的13种Drawable小结 Part 2](http://blog.csdn.net/coder_pig/article/details/49008397)
 
 
 ### 自定义View
