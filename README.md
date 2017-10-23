@@ -69,7 +69,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android基础入门教程——8.1.1 Android中的13种Drawable小结 Part 1](http://blog.csdn.net/coder_pig/article/details/49006217)
 - [Android基础入门教程——8.1.2 Android中的13种Drawable小结 Part 2](http://blog.csdn.net/coder_pig/article/details/49008397)
 - [Android-Drawable高级用法](http://blog.csdn.net/lmj623565791/article/details/43752383)
-
+- [安卓开踩过的坑：你的 Bitmap 究竟占多大内存？](http://dev.qq.com/topic/591d61f56793d26660901b4e)
 
 
 ### 自定义View
