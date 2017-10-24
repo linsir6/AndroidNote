@@ -155,6 +155,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android报错-Client not ready yet](/AndroidNote/Android报错记录/Android报错2.md)
 - [微信“15。。。。。”背后的故事](https://mp.weixin.qq.com/s/4DBPTN5qoVa976i8uTNAUQ)
 - [【Android】当关闭通知消息权限后无法显示系统Toast的解决方案](http://blog.csdn.net/qq_25867141/article/details/52807705)
+- [使用Android内置WebView打开TextView中的超链接](http://iluhcm.com/2016/07/06/how-to-open-a-hyperlink-using-app-webview-with-textview/)
 
 
 ----
