@@ -76,6 +76,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android图像处理 - 高斯模糊的原理及实现](https://mp.weixin.qq.com/s?__biz=MzI2MTU3MTE4NQ==&mid=2247483896&idx=1&sn=50c61e2c78aa610a1944be6a89bd75e5&chksm=ea5916e6dd2e9ff0a62af64c7f345ffb5c6dafdb65847b757b99afcc6fed8e1270e915dbcb25&mpshare=1&scene=23&srcid=1001DxwdQpiMwea74mczpSw8#rd)
 - [Android实战——GreenDao3.2的使用，爱不释手](https://mp.weixin.qq.com/s/4Nx2DacsK65O5LanPZUszA)
 - [Realm for Android详细教程](http://www.jianshu.com/p/28912c2f31db#)
+- [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
 
 
 
