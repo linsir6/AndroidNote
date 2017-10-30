@@ -468,7 +468,9 @@ public class NetworkException extends RuntimeException {
 - 自定义OnClickListener防止重复点击发生的问题
 
 ```java
-public static final int MIN_CLICK_DELAY_TIME = 1000;
+public abstract class NoDoubleClickListener implements View.OnClickListener {
+
+    private static final int MIN_CLICK_DELAY_TIME = 1000;
     private long lastClickTime = 0;
 
     @Override
@@ -476,6 +478,492 @@ public static final int MIN_CLICK_DELAY_TIME = 1000;
         long time = System.currentTimeMillis();
         if (time - lastClickTime > MIN_CLICK_DELAY_TIME) {
             lastClickTime = time;
+            onNoDoubleClick(v);
         }
+
+    }
+    public abstract void onNoDoubleClick(View v);
+}
+```
+
+- 创建notification并且添加点击事件
+
+```java
+PendingIntent mainPendingIntent = null;
+
+Intent mainIntent = new Intent(this, MainActivity.class);
+mainPendingIntent = PendingIntent.getActivity(this, 0, mainIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+
+    NotificationManager mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
+    mBuilder.setContentTitle("您有新的订单,请登陆app查看")//设置通知栏标题
+            .setContentIntent(getDefalutIntent(Notification.FLAG_AUTO_CANCEL)) //设置通知栏点击意图
+            //  .setNumber(number) //设置通知集合的数量
+            .setTicker("您有新的订单,请登陆app查看") //通知首次出现在通知栏，带上升动画效果的
+            .setWhen(System.currentTimeMillis())//通知产生的时间，会在通知信息里显示，一般是系统获取到的时间
+            .setContentIntent(mainPendingIntent)
+            .setPriority(Notification.PRIORITY_DEFAULT) //设置该通知优先级
+            .setAutoCancel(true)//设置这个标志当用户单击面板就可以让通知将自动取消
+            .setOngoing(false)//ture，设置他为一个正在进行的通知。他们通常是用来表示一个后台任务,用户积极参与(如播放音乐)或以某种方式正在等待,因此占用设备(如一个文件下载,同步操作,主动网络连接)
+            .setDefaults(Notification.DEFAULT_VIBRATE)//向通知添加声音、闪灯和振动效果的最简单、最一致的方式是使用当前的用户默认设置，使用defaults属性，可以组合
+            //Notification.DEFAULT_ALL  Notification.DEFAULT_SOUND 添加声音 // requires VIBRATE permission
+            .setSmallIcon(R.mipmap.ic_launcher);//设置通知小ICON
+
+
+    mNotificationManager.notify(1, mBuilder.build());
+```
+
+
+- 获取Imei，兼容Android N(easypermission)
+
+```java
+public class LoginActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks {
+
+    private String imei = "00000000000";
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+        String[] perms = {android.Manifest.permission.READ_PHONE_STATE};
+        if (EasyPermissions.hasPermissions(this, perms)) {
+            Log.e("lin", "---lin--->  imie  if");
+            TelephonyManager telephonyManager = (TelephonyManager) this.getApplicationContext().getSystemService(this.getApplicationContext().TELEPHONY_SERVICE);
+            imei = telephonyManager.getDeviceId();
+        } else {
+            Log.e("lin", "---lin--->  imie  else");
+            EasyPermissions.requestPermissions(this, "正在申请获取手机唯一编码",
+                    100, perms);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        // Forward results to EasyPermissions
+        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this);
+    }
+
+    @Override
+    public void onPermissionsGranted(int requestCode, List<String> perms) {
+        TelephonyManager telephonyManager = (TelephonyManager) this.getApplicationContext().getSystemService(this.getApplicationContext().TELEPHONY_SERVICE);
+        imei = telephonyManager.getDeviceId();
+    }
+
+    @Override
+    public void onPermissionsDenied(int requestCode, List<String> perms) {
+
+    }
+
+}
+```
+
+- 倒计时控件
+
+```java
+private TimeCount mTimeCount;
+mTimeCount = new TimeCount(60000, 1000);
+mTimeCount.start();
+
+class TimeCount extends CountDownTimer {
+    public TimeCount(long millisInFuture, long countDownInterval) {
+        super(millisInFuture + 200 , countDownInterval);
+    }
+
+    @Override
+    public void onFinish() {// 计时完毕
+        tvGetCodeActivityLogin.setText("获取验证码");
+        tvGetCodeActivityLogin.setClickable(true);
+    }
+
+
+    @Override
+    public void onTick(long millisUntilFinished) {// 计时过程
+        long time = millisUntilFinished / 1000;
+        String timeString = String.valueOf(time);
+        timeString = timeString + "S";
+        tvGetCodeActivityLogin.setText(timeString);
+        tvGetCodeActivityLogin.setClickable(false);//防止重复点击
+    }
+}
+```
+
+- 设置editext hint字的颜色值
+
+```java
+CharSequence hint = edtAuthCodeActivityLogin.getHint();
+SpannableString ss =  new SpannableString(hint);
+AbsoluteSizeSpan ass = new AbsoluteSizeSpan(17, true);
+edtAuthCodeActivityLogin.setHintTextColor(0xffdddddd);
+ss.setSpan(ass, 0, ss.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+edtAuthCodeActivityLogin.setHint(new SpannedString("短信验证码"));
+```
+
+- App内采用的开源相册 Album
+
+- 图片压缩框架 Luban
+
+- fragment类似activity的onResume()
+```java
+protected boolean isCreate = false;
+
+@Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (isVisibleToUser && isCreate) {
+            getOrderList("-1");
+        }
+    }
+```
+
+- 利用反射设置tablayout下划线长度
+
+```java
+tabLayoutOrderFragment.post(new Runnable() {
+            @Override
+            public void run() {
+                setIndicator(tabLayoutOrderFragment,20,20);
+            }
+        });
+
+public void setIndicator(TabLayout tabs, int leftDip, int rightDip) {
+        Class<?> tabLayout = tabs.getClass();
+        Field tabStrip = null;
+        try {
+            tabStrip = tabLayout.getDeclaredField("mTabStrip");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+
+        tabStrip.setAccessible(true);
+        LinearLayout llTab = null;
+        try {
+            llTab = (LinearLayout) tabStrip.get(tabs);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
+        int left = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, leftDip, Resources.getSystem().getDisplayMetrics());
+        int right = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, rightDip, Resources.getSystem().getDisplayMetrics());
+
+        for (int i = 0; i < llTab.getChildCount(); i++) {
+            View child = llTab.getChildAt(i);
+            child.setPadding(0, 0, 0, 0);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.MATCH_PARENT, 1);
+            params.leftMargin = left;
+            params.rightMargin = right;
+            child.setLayoutParams(params);
+            child.invalidate();
+        }
+
+    }
+```
+
+- 封装一个链式调用的dialog
+
+```java
+public class DialogUtils {
+
+    private Context mContext;
+    private AlertDialog mAlertDialog;
+    private DialogUtils.Builder mBuilder;
+    private boolean mHasShow = false;
+    private String mTitle;
+    private String mMessage;
+    private int messageColor = -1;
+    private SingleButtonCallback mPositiveCallback;
+    private SingleButtonCallback mNegativeCallback = new SingleButtonCallback() {
+        @Override
+        public void onClick(@NonNull DialogUtils dialog, View.OnClickListener listener) {
+            dismiss();
+        }
+    };
+    private boolean mCancel;
+
+
+    public DialogUtils(Context context) {
+        this.mContext = context;
+    }
+
+    public void show() {
+        if (!mHasShow) {
+            mBuilder = new Builder();
+        } else {
+            mAlertDialog.show();
+        }
+        mHasShow = true;
+    }
+
+    public void dismiss() {
+        mAlertDialog.dismiss();
+    }
+
+    public DialogUtils setTitle(String title) {
+        this.mTitle = title;
+        if (mBuilder != null) {
+            mBuilder.setTitle(title);
+        }
+        return this;
+    }
+
+    public DialogUtils setMessage(String message) {
+        this.mMessage = message;
+        if (mBuilder != null) {
+            mBuilder.setMessage(message);
+        }
+        return this;
+    }
+
+    public DialogUtils setMessageColor(int color) {
+        this.messageColor = color;
+        return this;
+    }
+
+    public DialogUtils setCanceledOnTouchOutside(boolean cancel) {
+        this.mCancel = cancel;
+        if (mBuilder != null) {
+            mBuilder.setCanceledOnTouchOutside(mCancel);
+        }
+        return this;
+    }
+
+    public DialogUtils setPositive(SingleButtonCallback positiveCallback) {
+        this.mPositiveCallback = positiveCallback;
+        return this;
+    }
+
+    public DialogUtils setNegative(SingleButtonCallback negativeCallback) {
+        this.mNegativeCallback = negativeCallback;
+        return this;
+    }
+
+
+    public enum DialogAction {
+        POSITIVE,
+        NEGATIVE
+    }
+
+    public interface SingleButtonCallback {
+        void onClick(@NonNull DialogUtils dialog, View.OnClickListener listener);
+    }
+
+
+    private class Builder {
+
+        private TextView mTitleView;
+        private TextView mMessageView;
+        private TextView mPositive, mNegative;
+        private Window mAlertDialogWindow;
+        private RelativeLayout mDialog;
+
+        private Builder() {
+            mAlertDialog = new AlertDialog.Builder(mContext, R.style.Theme_AppCompat_Dialog).create();
+            mAlertDialog.show();
+            mAlertDialog.getWindow()
+                    .clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
+                            WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
+            mAlertDialog.getWindow()
+                    .setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_MASK_STATE);
+
+            mAlertDialogWindow = mAlertDialog.getWindow();
+            mAlertDialogWindow.setBackgroundDrawable(
+                    new ColorDrawable(android.graphics.Color.TRANSPARENT));
+            View contentView = LayoutInflater.from(mContext)
+                    .inflate(R.layout.dialog_util_layout, null);
+            contentView.setFocusable(true);
+            contentView.setFocusableInTouchMode(true);
+            mAlertDialogWindow.setBackgroundDrawableResource(R.drawable.material_dialog_window);
+            mAlertDialogWindow.setContentView(contentView);
+            mTitleView = (TextView) mAlertDialogWindow.findViewById(R.id.tv_title);
+            mMessageView = (TextView) mAlertDialogWindow.findViewById(R.id.tv_hint);
+            mPositive = (TextView) mAlertDialogWindow.findViewById(R.id.tv_sure);
+            mNegative = (TextView) mAlertDialogWindow.findViewById(R.id.tv_cancel);
+            mDialog = (RelativeLayout) mAlertDialogWindow.findViewById(R.id.dialog);
+            Log.i("lin", "----lin----> 宽 " + MyApplication.get().getScreenWidth());
+            Log.i("lin", "----lin----> 高 " + MyApplication.get().getScreenHeight());
+
+            mDialog.setLayoutParams(new RelativeLayout.LayoutParams(MyApplication.get().getScreenWidth() / 4 * 3, MyApplication.get().getScreenHeight() / 4));
+            if (mTitle != null) {
+                mTitleView.setText(mTitle);
+            }
+            if (mMessage != null) {
+                mMessageView.setText(mMessage);
+            }
+            if (messageColor != -1) {
+                mMessageView.setTextColor(messageColor);
+            }
+            mAlertDialog.setCanceledOnTouchOutside(mCancel);
+            mAlertDialog.setCancelable(mCancel);
+            if (mPositiveCallback != null) {
+                mPositive.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mPositiveCallback.onClick(DialogUtils.this, this);
+                    }
+                });
+            }
+            if (mNegativeCallback != null) {
+                mNegative.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mNegativeCallback.onClick(DialogUtils.this, this);
+                    }
+                });
+            }
+
+        }
+
+
+        public void setTitle(String title) {
+            mTitleView.setText(title);
+        }
+
+        public void setMessage(String message) {
+            if (mMessageView != null) {
+                mMessageView.setText(message);
+            }
+        }
+
+        public void setCanceledOnTouchOutside(boolean canceledOnTouchOutside) {
+            mAlertDialog.setCanceledOnTouchOutside(canceledOnTouchOutside);
+            mAlertDialog.setCancelable(canceledOnTouchOutside);
+        }
+
+    }
+
+}
+```
+
+- 将loadingView封装成loadingViewDialog
+
+```java
+public class LoadingUtils {
+
+
+    private Context mContext;
+    private AlertDialog mAlertDialog;
+    private LoadingUtils.Builder mBuilder;
+    private boolean mHasShow = false;
+    private String mMessage;
+    private boolean mCancel;
+
+
+    public LoadingUtils(Context context) {
+        this.mContext = context;
+    }
+
+    public void show() {
+        if (!mHasShow) {
+            mBuilder = new LoadingUtils.Builder();
+        } else {
+            mAlertDialog.show();
+        }
+        mHasShow = true;
+    }
+
+    public void dismiss() {
+        mAlertDialog.dismiss();
+    }
+
+
+    public LoadingUtils setMessage(String message) {
+        this.mMessage = message;
+        if (mBuilder != null) {
+            mBuilder.setMessage(message);
+        }
+        return this;
+    }
+
+    public LoadingUtils setCanceledOnTouchOutside(boolean cancel) {
+        this.mCancel = cancel;
+        if (mBuilder != null) {
+            mBuilder.setCanceledOnTouchOutside(mCancel);
+        }
+        return this;
+    }
+
+    private class Builder {
+
+        private Window mAlertDialogWindow;
+        private TextView mMessageView;
+        private RelativeLayout mDialog;
+        private LoadingView loadingView;
+
+        private Builder() {
+            mAlertDialog = new AlertDialog.Builder(mContext, R.style.Theme_AppCompat_Dialog).create();
+            mAlertDialog.show();
+            mAlertDialog.getWindow()
+                    .clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
+                            WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
+            mAlertDialog.getWindow()
+                    .setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_MASK_STATE);
+
+            mAlertDialogWindow = mAlertDialog.getWindow();
+            mAlertDialogWindow.setBackgroundDrawable(
+                    new ColorDrawable(android.graphics.Color.TRANSPARENT));
+            View contentView = LayoutInflater.from(mContext)
+                    .inflate(R.layout.loading_view_layout, null);
+            contentView.setFocusable(true);
+            contentView.setFocusableInTouchMode(true);
+            mAlertDialogWindow.setBackgroundDrawableResource(R.drawable.material_dialog_window);
+            mAlertDialogWindow.setContentView(contentView);
+            mDialog = (RelativeLayout) contentView.findViewById(R.id.rl_loading_view);
+            mMessageView = (TextView) contentView.findViewById(R.id.tv_hint);
+            loadingView = (LoadingView) contentView.findViewById(R.id.loading_view);
+
+            loadingView.setViewColor(Color.argb(100, 255, 255, 255));
+            loadingView.startAnim();
+            loadingView.setBarColor(0xFF42a5f5);
+            loadingView.startAnim();
+
+
+            Log.i("lin", "----lin----> 宽 " + MyApplication.get().getScreenWidth());
+            Log.i("lin", "----lin----> 高 " + MyApplication.get().getScreenHeight());
+
+            mDialog.setLayoutParams(new FrameLayout.LayoutParams(MyApplication.get().getScreenWidth() / 4 * 3, MyApplication.get().getScreenHeight() / 4));
+
+            if (mMessage != null) {
+                mMessageView.setText(mMessage);
+            }
+            mAlertDialog.setCanceledOnTouchOutside(mCancel);
+            mAlertDialog.setCancelable(mCancel);
+        }
+
+
+        public void setMessage(String message) {
+            if (mMessageView != null) {
+                mMessageView.setText(message);
+            }
+        }
+
+        public void setCanceledOnTouchOutside(boolean canceledOnTouchOutside) {
+            mAlertDialog.setCanceledOnTouchOutside(canceledOnTouchOutside);
+            mAlertDialog.setCancelable(canceledOnTouchOutside);
+        }
+
+    }
+
+}
+
+```
+
+- 判断当前app是否有网络
+```java
+public static boolean isNetworkAvailable(Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (cm == null) {
+
+        } else {
+            NetworkInfo[] info = cm.getAllNetworkInfo();
+            if (info != null) {
+                for (int i = 0; i < info.length; i++) {
+                    if (info[i].getState() == NetworkInfo.State.CONNECTED) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
     }
 ```
