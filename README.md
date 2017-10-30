@@ -77,6 +77,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android实战——GreenDao3.2的使用，爱不释手](https://mp.weixin.qq.com/s/4Nx2DacsK65O5LanPZUszA)
 - [Realm for Android详细教程](http://www.jianshu.com/p/28912c2f31db#)
 - [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
+- [Android 谈谈自动化测试](https://mp.weixin.qq.com/s/-0e1wd2iveQPMWgGFcmOwQ)
 
 
 
