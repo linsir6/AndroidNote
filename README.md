@@ -102,6 +102,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ### 编译器相关
 
+- [Android Studio 3.0 新功能解析和旧项目适配](https://mp.weixin.qq.com/s/met0fke7rKumb7Nlb5hxpA)
 - [Android-studio使用教程1](/AndroidNote/Android编译器相关/AndroidStudio使用教程(第一弹).md)
 - [Android-studio使用教程2](/AndroidNote/Android编译器相关/AndroidStudio使用教程(第二弹).md)
 - [Android-studio使用教程3](/AndroidNote/Android编译器相关/AndroidStudio使用教程(第三弹).md)
