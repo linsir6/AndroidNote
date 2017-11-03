@@ -36,6 +36,7 @@
 跳转到登录页面
 
 ```java
+
 private void toSetting() {  
     Intent localIntent = new Intent();  
     localIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);  
