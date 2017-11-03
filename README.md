@@ -80,7 +80,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Android 谈谈自动化测试](https://mp.weixin.qq.com/s/-0e1wd2iveQPMWgGFcmOwQ)
 - [检查app是否具有通知栏权限](/AndroidNote/Android进阶/检查app是否有推送权限.md)
 - [Android中图片压缩分析（上）](https://mp.weixin.qq.com/s/QZ-XTsO7WnNvpnbr3DWQmg)
-
+- [Android Studio3.0更新之路（遇坑必入）](http://www.jianshu.com/p/15afb8234d19)
 
 
 ### 自定义View
