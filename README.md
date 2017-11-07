@@ -172,6 +172,12 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ----
 
+## linux
+
+- [Android-GitLabCi配置.md](/Linux/Android-GitLabCi配置.md)
+
+----
+
 ## Git教程
 
 - [Git详细教程](/Git/git详细教程.md)
