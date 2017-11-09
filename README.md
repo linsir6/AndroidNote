@@ -205,7 +205,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [观察者模式](/JavaNote/设计模式相关/观察者模式.md)
 
 
-### Java相关
+### Java基础相关
 
 - [Java基础知识](/JavaNote/Java相关/Java基础知识.md)
 - [Java回调原理与实现1](/JavaNote/Java相关/Java回调的原理与实现.md)
@@ -219,6 +219,13 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [JVM虚拟机基础知识](/JavaNote/Java相关/JVM虚拟机基础知识.md)
 - [JVM类加载器](/JavaNote/Java相关/JVM类加载器.md)
 - [Javase基础知识](https://github.com/francistao/LearningNotes/blob/master/Part2/JavaSE/Java基础知识.md)
+
+
+
+### JavaEE相关
+
+- [Spring入门教程](http://how2j.cn/k/spring/spring-ioc-di/87.html)
+- [最全面的Spring学习笔记](https://www.cnblogs.com/wangyayun/p/6800902.html)
 
 ----
 
