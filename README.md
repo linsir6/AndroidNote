@@ -228,6 +228,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [最全面的Spring学习笔记](https://www.cnblogs.com/wangyayun/p/6800902.html)
 - [Spring-root入门](/JavaNote/Javaee/Spring-boot入门.md)
 - [Spring Boot 配置文件 – 在坑中实践](https://www.bysocket.com/?p=1786)
+- [Spring Boot 之 RESRful API 权限控制](https://www.bysocket.com/?p=1080)
 
 ----
 
@@ -298,4 +299,5 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [浅析RPC协议](/网络协议/浅析RPC协议.md)
 - [浅析dubbo服务](/网络协议/浅析dubbo服务.md)
 - [SSH原理与应用](/网络协议/SSH原理与应用.md)
-= [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
+- [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
+- [OAuth 2和JWT - 如何设计安全的API？](http://blog.csdn.net/ljinddlj/article/details/53108261)
