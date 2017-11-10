@@ -226,6 +226,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 - [Spring入门教程](http://how2j.cn/k/spring/spring-ioc-di/87.html)
 - [最全面的Spring学习笔记](https://www.cnblogs.com/wangyayun/p/6800902.html)
+- [Spring-root入门](/JavaNote/Javaee/Spring-boot入门.md)
 
 ----
 
