@@ -230,6 +230,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [Spring Boot 配置文件 – 在坑中实践](https://www.bysocket.com/?p=1786)
 - [Spring Boot 之 RESRful API 权限控制](https://www.bysocket.com/?p=1080)
 - [Spring Boot 整合 Redis 实现缓存操作](https://www.bysocket.com/?p=1756)
+- [Spring Boot 官方文档](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
 
 ----
 
