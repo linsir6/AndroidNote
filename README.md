@@ -40,7 +40,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 ### Android进阶
 
-
+- [Android 多进程使用场景](http://blog.csdn.net/qq_27489007/article/details/54377655)
 - [Android官网建议代码规范](https://source.android.com/source/code-style#java-language-rules)
 - [30多年编码经验总结成10条最佳实践](https://mp.weixin.qq.com/s?__biz=MzIyMjQ0MTU0NA==&mid=2247484524&idx=1&sn=5b2759e6d89f01e61d021545ca7556b9&chksm=e82c3d4bdf5bb45dd77227982931ede8229ee6910829253a57bb905e810c89bd3f0a162786e8&mpshare=1&scene=23&srcid=1023FjKcLWtRlcDpwEeeJnCN#rd)
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
