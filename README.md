@@ -144,6 +144,13 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [如何终止App的运行](/AndroidNote/Android面试相关/如何终止App的运行.md)
 - [如何实现Activity切换的动画](/AndroidNote/Android面试相关/如何实现Activity切换的动画.md)
 
+
+### 性能优化
+
+- [Android开发性能优化总结(一)](http://blog.csdn.net/gs12software/article/details/51173392)
+- [Android开发性能优化总结(二)](http://blog.csdn.net/gs12software/article/details/51234454)
+
+
 ### 开源框架
 
 - [当下流行开源框架总览](/AndroidNote/Android开源框架相关/Android当下最流行的开源框架总结.md)
