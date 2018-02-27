@@ -125,6 +125,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
 - [超详细面试基础题](https://mp.weixin.qq.com/s/YVvV3-RUjbqYo-DYY3E6nA)
 - [深入理解Activity的生命周期](https://www.jianshu.com/p/fb44584daee3)
+- [2017-Android暑期实习生面试经验谈](http://lruheng.com/2017/05/09/2017-Android%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E7%94%9F%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E8%B0%88/)
 - [深入探讨 Java 类加载器](https://www.ibm.com/developerworks/cn/java/j-lo-classloader/)
 - [Android插件化系列第（二）篇---动态加载技术之apk换肤](https://www.jianshu.com/p/d1c6e67f7889)
 - [找到无序数组中最小的K个数](https://www.cnblogs.com/xiaomoxian/archive/2016/02/11/5186762.html)
