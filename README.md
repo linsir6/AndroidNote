@@ -126,6 +126,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 - [超详细面试基础题](https://mp.weixin.qq.com/s/YVvV3-RUjbqYo-DYY3E6nA)
 - [深入探讨 Java 类加载器](https://www.ibm.com/developerworks/cn/java/j-lo-classloader/)
 - [Android插件化系列第（二）篇---动态加载技术之apk换肤](https://www.jianshu.com/p/d1c6e67f7889)
+- [找到无序数组中最小的K个数](https://www.cnblogs.com/xiaomoxian/archive/2016/02/11/5186762.html)
 - [字符编码笔记：ASCII，Unicode和UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
 - [Android 消息机制——你真的了解Handler？](http://blog.csdn.net/qian520ao/article/details/78262289?locationNum=2&fps=1)
 - [高并发下线程安全的单例模式](http://blog.csdn.net/cselmu9/article/details/51366946)
