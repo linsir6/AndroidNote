@@ -123,6 +123,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
 
   [**Java面试相关**](https://github.com/linsir6/JavaNote)
 
+- [Android动态加载技术三个关键问题详解](https://blog.tingyun.com/web/article/detail/166)
 - [超详细面试基础题](https://mp.weixin.qq.com/s/YVvV3-RUjbqYo-DYY3E6nA)
 - [JVM结构、GC工作机制详解](http://blog.csdn.net/tonytfjing/article/details/44278233)
 - [深入理解Activity的生命周期](https://www.jianshu.com/p/fb44584daee3)
