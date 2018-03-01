@@ -124,6 +124,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
   [**Java面试相关**](https://github.com/linsir6/JavaNote)
 
 - [Android动态加载技术三个关键问题详解](https://blog.tingyun.com/web/article/detail/166)
+- [Android性能优化之布局优化](https://www.cnblogs.com/hoolay/p/6248514.html)
 - [简易断点续传下载器实现](https://www.jianshu.com/p/5b2e22c42467)
 - [超详细面试基础题](https://mp.weixin.qq.com/s/YVvV3-RUjbqYo-DYY3E6nA)
 - [JVM结构、GC工作机制详解](http://blog.csdn.net/tonytfjing/article/details/44278233)
