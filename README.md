@@ -124,6 +124,7 @@ Android-Note同时是博主的一个学习笔记，之前博主尝试着维护�
   [**Java面试相关**](https://github.com/linsir6/JavaNote)
 
 - [Android动态加载技术三个关键问题详解](https://blog.tingyun.com/web/article/detail/166)
+- [Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 - [Android插件化系列第（一）篇---Hook技术之Activity的启动过程拦截](https://www.jianshu.com/p/69bfbda302df)
 - [Android插件化系列第（二）篇---动态加载技术之apk换肤](https://www.jianshu.com/p/d1c6e67f7889)
 - [Android插件化系列第（三）篇---Hook技术之View点击劫持](https://www.jianshu.com/p/dfc6e3989511)
