@@ -1,13 +1,15 @@
 > java中实现观察者模式有很多种方式，上一篇文章介绍到了，[利用callback的方式实现了回调](http://www.jianshu.com/p/67190bdce647)，这篇文章准备介绍的是利用listener实现回调。
 
 ----
-#Java回调机制
+# Java回调机制
 
-####根据实时性划分：
+#### 根据实时性划分：
+
 - [同步回调](http://www.jianshu.com/p/67190bdce647)
 - [异步回调](http://www.jianshu.com/p/67190bdce647)
 
-####实现方式
+#### 实现方式
+
 * [利用匿名内部类即callbck来实现](http://www.jianshu.com/p/67190bdce647)
 * 用listener来实现
 
@@ -44,10 +46,11 @@ public class Test extends AppCompatActivity implements View.OnClickListener {
 
 ````
 
-####回调的本质
+#### 回调的本质
+
 其实无论哪种方式来实现回调，利用的思想都是观察者模式，即在我们选择订阅之后，当对方做出任何举动的时候会给我们发送一条信息，这样做的好处是省着我们用一个新的线程轮训检测对方的状态，可以节省很多的资源。
 
-####应用的场景
+#### 应用的场景
 
 - 如果我们需要将信息一层一层的返回去的时候，正如我下面的例子，那么可能用listener更为适合我们，因为我们可以将这个listener进行传递，在需要查看数据的时候进行回调它。或者当我们有很多事件需要回调的时候，可以实现一个listener然后发送不同的信息，进行区分。这样代码看起来会简洁一些，不会像callback一样，会嵌套很多层，也不会写出很多个callback来。
 

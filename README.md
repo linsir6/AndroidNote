@@ -39,7 +39,7 @@
 
 ### Android进阶
 
-
+- [Android 多进程使用场景](http://blog.csdn.net/qq_27489007/article/details/54377655)
 - [Android官网建议代码规范](https://source.android.com/source/code-style#java-language-rules)
 - [30多年编码经验总结成10条最佳实践](https://mp.weixin.qq.com/s?__biz=MzIyMjQ0MTU0NA==&mid=2247484524&idx=1&sn=5b2759e6d89f01e61d021545ca7556b9&chksm=e82c3d4bdf5bb45dd77227982931ede8229ee6910829253a57bb905e810c89bd3f0a162786e8&mpshare=1&scene=23&srcid=1023FjKcLWtRlcDpwEeeJnCN#rd)
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
@@ -122,7 +122,23 @@
 
   [**Java面试相关**](https://github.com/linsir6/JavaNote)
 
+- [Android动态加载技术三个关键问题详解](https://blog.tingyun.com/web/article/detail/166)
+- [Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
+- [Android插件化系列第（一）篇---Hook技术之Activity的启动过程拦截](https://www.jianshu.com/p/69bfbda302df)
+- [Android插件化系列第（二）篇---动态加载技术之apk换肤](https://www.jianshu.com/p/d1c6e67f7889)
+- [Android插件化系列第（三）篇---Hook技术之View点击劫持](https://www.jianshu.com/p/dfc6e3989511)
+- [Android性能优化之布局优化](https://www.cnblogs.com/hoolay/p/6248514.html)
+- [简易断点续传下载器实现](https://www.jianshu.com/p/5b2e22c42467)
+- [超详细面试基础题](https://mp.weixin.qq.com/s/YVvV3-RUjbqYo-DYY3E6nA)
+- [JVM结构、GC工作机制详解](http://blog.csdn.net/tonytfjing/article/details/44278233)
+- [深入理解Activity的生命周期](https://www.jianshu.com/p/fb44584daee3)
+- [2017-Android暑期实习生面试经验谈](http://lruheng.com/2017/05/09/2017-Android%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E7%94%9F%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E8%B0%88/)
+- [深入探讨 Java 类加载器](https://www.ibm.com/developerworks/cn/java/j-lo-classloader/)
+- [找到无序数组中最小的K个数](https://www.cnblogs.com/xiaomoxian/archive/2016/02/11/5186762.html)
 - [字符编码笔记：ASCII，Unicode和UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
+- [Android 消息机制——你真的了解Handler？](http://blog.csdn.net/qian520ao/article/details/78262289?locationNum=2&fps=1)
+- [高并发下线程安全的单例模式](http://blog.csdn.net/cselmu9/article/details/51366946)
+- [深入源码解析Android中的Handler,Message,MessageQueue,Looper](http://blog.csdn.net/iispring/article/details/47180325)
 - [十大基础算法](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401441966&idx=1&sn=653fe22c5a7e6c221fbf121124fd18a2&scene=21#wechat_redirect)
 - [一套比较好的面试题](http://blog.csdn.net/xhmj12/article/details/54730883)
 - [Android中常见面试题](/AndroidNote/Android面试相关/Android中常见面试题.md)
@@ -138,6 +154,13 @@
 - [如何提高Activity启动速度](/AndroidNote/Android面试相关/如何提高Activity启动速度.md)
 - [如何终止App的运行](/AndroidNote/Android面试相关/如何终止App的运行.md)
 - [如何实现Activity切换的动画](/AndroidNote/Android面试相关/如何实现Activity切换的动画.md)
+
+
+### 性能优化
+
+- [Android开发性能优化总结(一)](http://blog.csdn.net/gs12software/article/details/51173392)
+- [Android开发性能优化总结(二)](http://blog.csdn.net/gs12software/article/details/51234454)
+
 
 ### 开源框架
 
@@ -300,5 +323,5 @@
 - [浅析RPC协议](/网络协议/浅析RPC协议.md)
 - [浅析dubbo服务](/网络协议/浅析dubbo服务.md)
 - [SSH原理与应用](/网络协议/SSH原理与应用.md)
-- [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
+- [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 - [OAuth 2和JWT - 如何设计安全的API？](http://blog.csdn.net/ljinddlj/article/details/53108261)
