@@ -318,6 +318,7 @@
 - [Error-ER_TRUNCATED_WRONG_VALUE_FOR_FIELD](/WebNote/MySQL相关/Error--ER_TRUNCATED_WRONG_VALUE_FOR_FIELD.md)
 - [ERROR-1045-(28000)--Access-denied-for-user-'debian-sys-maint'@'localhost](/WebNote/MySQL相关/ERROR-1045-(28000)--Access-denied-for-user-'debian-sys-maint'@'localho.md)
 - [mysql设置远程链接权限](https://www.cnblogs.com/gdsblog/p/7349551.html)
+- [关于初次安装mysql8.01遇到的问题解决](https://blog.csdn.net/l569746927/article/details/80025364)
 
 
 ----
