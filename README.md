@@ -171,6 +171,8 @@
 - [LinLog](/AndroidNote/Android开源框架相关/一款Android的Log、Toast的库.md)
 - [Retrofit 2.0 使用教程](http://www.jianshu.com/p/a3e162261ab6)
 - [retrofit 2.0 源码解析](http://www.jianshu.com/p/0c055ad46b6c)
+- [关于 RxJava 背压](https://juejin.im/entry/58e704cbac502e4957b230eb)
+- [RxJava 2.0中backpressure(背压)概念的理解](https://blog.csdn.net/jdsjlzx/article/details/52717636)
 
 
 ### 打包
