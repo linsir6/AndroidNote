@@ -82,6 +82,9 @@
 - [Android Studio3.0更新之路（遇坑必入）](http://www.jianshu.com/p/15afb8234d19)
 - [Android Studio3.0正式版填坑路](http://www.jianshu.com/p/9b25087a5d7d)
 - [Android混合编程：WebView实践](https://juejin.im/post/59f17a7051882546d71e91a7)
+- [runOnUiThread 、Handler.post、View.post之间的区别](https://blog.csdn.net/dengpeng_/article/details/78804404)
+- [理解 Activity.runOnUiThread](https://www.jianshu.com/p/e39449026f21)
+- [说说 getMainLooper](http://www.icodeyou.com/2015/10/11/2015-10-11-getMainLooper/)
 
 
 
