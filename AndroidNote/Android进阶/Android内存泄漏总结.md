@@ -123,33 +123,7 @@ o = null;
 
 在这个例子中，循环申请Object 对象，并将所申请的对象放入一个Vector 中，如果仅仅释放引用本身（o=null），那么Vector 仍然引用该对象，所以这个对象对GC 来说是不可回收的。因此，如果对象加入到Vector 后，还必须从Vector 中删除，最简单的方法就是将Vector对象设置为null。
 
-2、当集合里面的对象属性被修改后，再调用remove()方法时不起作用。
 
-例如：
-
-```
-public static void main(String[] args)
-{
-Set<Person> set = new HashSet<Person>();
-Person p1 = new Person("唐僧","pwd1",25);
-Person p2 = new Person("孙悟空","pwd2",26);
-Person p3 = new Person("猪八戒","pwd3",27);
-set.add(p1);
-set.add(p2);
-set.add(p3);
-System.out.println("总共有:"+set.size()+" 个元素!"); //结果：总共有:3 个元素!
-p3.setAge(2); //修改p3的年龄,此时p3元素对应的hashcode值发生改变
-
-set.remove(p3); //此时remove不掉，造成内存泄漏
-
-set.add(p3); //重新添加，居然添加成功
-System.out.println("总共有:"+set.size()+" 个元素!"); //结果：总共有:4 个元素!
-for (Person person : set)
-{
-System.out.println(person);
-}
-}
-```
 
 3、监听器
 
