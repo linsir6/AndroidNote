@@ -35,6 +35,7 @@
 - [初识ConstraintLayout](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548068&idx=1&sn=f750ae79c9458f89c3cf85f7573ba579&scene=21#wechat_redirect)
 - [TabLayout记录](/AndroidNote/Android基础/tablayout记录.md)
 - [用SpannableString打造绚丽多彩的文本显示效果](http://www.jianshu.com/p/84067ad289d2)
+- [解析ConstraintLayout的性能优势](https://mp.weixin.qq.com/s/gGR2itbY7hh9fo61SxaMQQ)
 
 
 ### Android进阶
