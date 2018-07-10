@@ -100,6 +100,10 @@
 - [Android Dex分包之旅](http://yydcdut.com/2016/03/20/split-dex/)
 - [美团Android DEX自动拆包及动态加载简介](https://tech.meituan.com/mt-android-auto-split-dex.html)
 
+### 插件化相关
+
+- [滴滴插件化方案 VirtualApk 源码解析](https://blog.csdn.net/lmj623565791/article/details/75000580)
+
 
 ### 自定义View
 
