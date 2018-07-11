@@ -105,6 +105,14 @@
 - [滴滴插件化方案 VirtualApk 源码解析](https://blog.csdn.net/lmj623565791/article/details/75000580)
 
 
+### 热修复相关
+
+- [Android 热修复 Tinker Gradle Plugin解析](https://blog.csdn.net/lmj623565791/article/details/72667669)
+- [Android 热修复 Tinker接入及源码浅析](https://blog.csdn.net/lmj623565791/article/details/54882693)
+- [Android 热修复 Tinker 源码分析之DexDiff / DexPatch](https://blog.csdn.net/lmj623565791/article/details/60874334)
+
+
+
 ### 自定义View
 
 - [自定义View入门](/AndroidNote/Android自定义View/自定义View入门.md)
