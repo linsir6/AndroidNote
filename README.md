@@ -99,6 +99,7 @@
 - [Android 突破 DEX 文件的 64k方法数限制](http://yifeng.studio/2016/10/26/android-64k-methods-count/)
 - [Android Dex分包之旅](http://yydcdut.com/2016/03/20/split-dex/)
 - [美团Android DEX自动拆包及动态加载简介](https://tech.meituan.com/mt-android-auto-split-dex.html)
+- [gradle简单入门系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
 
 ### 插件化相关
 
