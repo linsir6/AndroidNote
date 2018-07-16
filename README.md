@@ -100,6 +100,8 @@
 - [Android Dex分包之旅](http://yydcdut.com/2016/03/20/split-dex/)
 - [美团Android DEX自动拆包及动态加载简介](https://tech.meituan.com/mt-android-auto-split-dex.html)
 - [gradle简单入门系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
+- [Gradle简单配置](https://mp.weixin.qq.com/s/1UHcYOudViMhpUYeREZzGA)
+
 
 ### 插件化相关
 
