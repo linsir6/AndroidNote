@@ -91,6 +91,7 @@
 - [理解 Activity.runOnUiThread](https://www.jianshu.com/p/e39449026f21)
 - [说说 getMainLooper](http://www.icodeyou.com/2015/10/11/2015-10-11-getMainLooper/)
 - [Android 探究 LayoutInflater setFactory](https://blog.csdn.net/lmj623565791/article/details/51503977)
+- [巧用ViewPager 打造不一样的广告轮播切换效果](https://blog.csdn.net/lmj623565791/article/details/51339751)
 
 
 ### Gradle相关
