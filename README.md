@@ -101,6 +101,7 @@
 - [美团Android DEX自动拆包及动态加载简介](https://tech.meituan.com/mt-android-auto-split-dex.html)
 - [gradle简单入门系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
 - [Gradle简单配置](https://mp.weixin.qq.com/s/1UHcYOudViMhpUYeREZzGA)
+- [Android 如何编写基于编译时注解的项目](https://blog.csdn.net/lmj623565791/article/details/51931859)
 
 
 ### 插件化相关
