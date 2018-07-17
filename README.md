@@ -90,6 +90,7 @@
 - [runOnUiThread 、Handler.post、View.post之间的区别](https://blog.csdn.net/dengpeng_/article/details/78804404)
 - [理解 Activity.runOnUiThread](https://www.jianshu.com/p/e39449026f21)
 - [说说 getMainLooper](http://www.icodeyou.com/2015/10/11/2015-10-11-getMainLooper/)
+- [Android 探究 LayoutInflater setFactory](https://blog.csdn.net/lmj623565791/article/details/51503977)
 
 
 ### Gradle相关
