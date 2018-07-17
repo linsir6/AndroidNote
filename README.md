@@ -207,6 +207,7 @@
 - [retrofit 2.0 源码解析](http://www.jianshu.com/p/0c055ad46b6c)
 - [关于 RxJava 背压](https://juejin.im/entry/58e704cbac502e4957b230eb)
 - [RxJava 2.0中backpressure(背压)概念的理解](https://blog.csdn.net/jdsjlzx/article/details/52717636)
+- [Retrofit2 完全解析 探索与okhttp之间的关系](https://blog.csdn.net/lmj623565791/article/details/51304204)
 
 
 ### 打包
