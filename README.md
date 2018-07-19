@@ -38,6 +38,7 @@
 - [解析ConstraintLayout的性能优势](https://mp.weixin.qq.com/s/gGR2itbY7hh9fo61SxaMQQ)
 - [Android新特性介绍，ConstraintLayout完全解析](https://blog.csdn.net/guolin_blog/article/details/53122387)
 - [Android新特性介绍，ConstraintLayout完全解析](https://blog.csdn.net/guolin_blog/article/details/53122387)
+- [Android 一个无限循环滚动的卡片式ViewPager](https://blog.csdn.net/qq_30552993/article/details/76208535)
 
 
 ### Android进阶
