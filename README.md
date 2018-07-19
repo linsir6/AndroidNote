@@ -105,6 +105,7 @@
 - [gradle简单入门系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
 - [Gradle简单配置](https://mp.weixin.qq.com/s/1UHcYOudViMhpUYeREZzGA)
 - [Android 如何编写基于编译时注解的项目](https://blog.csdn.net/lmj623565791/article/details/51931859)
+- [Gradle 完整指南（Android）](https://www.jianshu.com/p/9df3c3b6067a)
 
 
 ### 插件化相关
