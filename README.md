@@ -32,22 +32,15 @@
 - [RecyclerView的使用](/AndroidNote/Android基础/RecyclerView的简介.md)
 - [Android获取SHA1](/AndroidNote/Android基础/Android获取SHA1.md)
 - [Recyclerview和Listview的异同.md](/AndroidNote/Android进阶/Recyclerview和Listview的异同.md)
-- [初识ConstraintLayout](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548068&idx=1&sn=f750ae79c9458f89c3cf85f7573ba579&scene=21#wechat_redirect)
 - [TabLayout记录](/AndroidNote/Android基础/tablayout记录.md)
-- [用SpannableString打造绚丽多彩的文本显示效果](http://www.jianshu.com/p/84067ad289d2)
-- [解析ConstraintLayout的性能优势](https://mp.weixin.qq.com/s/gGR2itbY7hh9fo61SxaMQQ)
-- [Android新特性介绍，ConstraintLayout完全解析](https://blog.csdn.net/guolin_blog/article/details/53122387)
-- [Android新特性介绍，ConstraintLayout完全解析](https://blog.csdn.net/guolin_blog/article/details/53122387)
-- [Android 一个无限循环滚动的卡片式ViewPager](https://blog.csdn.net/qq_30552993/article/details/76208535)
+
 
 
 ### Android进阶
 
-- [Android 触控事件解析 - Mastering The Android Touch System 笔记
-](https://www.jianshu.com/p/c65da5e81afd)
+- [Android 触控事件解析 - Mastering The Android Touch System 笔记](https://www.jianshu.com/p/c65da5e81afd)
 - [Android 多进程使用场景](http://blog.csdn.net/qq_27489007/article/details/54377655)
 - [Android官网建议代码规范](https://source.android.com/source/code-style#java-language-rules)
-- [30多年编码经验总结成10条最佳实践](https://mp.weixin.qq.com/s?__biz=MzIyMjQ0MTU0NA==&mid=2247484524&idx=1&sn=5b2759e6d89f01e61d021545ca7556b9&chksm=e82c3d4bdf5bb45dd77227982931ede8229ee6910829253a57bb905e810c89bd3f0a162786e8&mpshare=1&scene=23&srcid=1023FjKcLWtRlcDpwEeeJnCN#rd)
 - [Android中的动画](/AndroidNote/Android进阶/Android中的动画.md)
 - [深入了解MVXX模式](/AndroidNote/Android进阶/深入了解MVXX模式.md)
 - [Android项目总结](/AndroidNote/Android进阶/Android项目总结.md)
@@ -59,7 +52,6 @@
 - [Handler引起的内存泄漏的案例与分析](/AndroidNote/Android进阶/Handler引起的内存泄漏以及分析.md)
 - [Android性能优化.md](/AndroidNote/Android进阶/Android性能优化.md)
 - [LeakCanary的工作过程以及原理](AndroidNote/Android性能优化相关/LeakCanary工作过程以及原理.md)
-- [AIDL的具体实现流程](http://bbs.51cto.com/thread-1086040-1.html)
 - [Android中利用异步来优化处理速度](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=401555104&idx=1&sn=501e6158e6eb26b4e86467be01fd290e&scene=21#wechat_redirect)
 - [为什么选择Binder实现Android中跨进程通信](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649548116&idx=1&sn=d11a131871623110c74e3676d4fcf785&chksm=f1180e29c66f873f9cac5dc104f97fae319c1831219a9fd9458a4429f16562f6712cc7f65a4c&scene=21#wechat_redirect)
 - [三大图片缓存框架的对比](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649547344&idx=2&sn=e3fa99b52055a37202634fe61a62d439&scene=21#wechat_redirect)
@@ -76,7 +68,6 @@
 - [Android基础入门教程——8.1.1 Android中的13种Drawable小结 Part 1](http://blog.csdn.net/coder_pig/article/details/49006217)
 - [Android基础入门教程——8.1.2 Android中的13种Drawable小结 Part 2](http://blog.csdn.net/coder_pig/article/details/49008397)
 - [Android-Drawable高级用法](http://blog.csdn.net/lmj623565791/article/details/43752383)
-- [安卓开踩过的坑：你的 Bitmap 究竟占多大内存？](http://dev.qq.com/topic/591d61f56793d26660901b4e)
 - [Android 4.4 中 WebView 使用注意事项](https://github.com/cundong/blog/blob/master/Android%204.4%20%E4%B8%AD%20WebView%20%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.md)
 - [Android图像处理 - 高斯模糊的原理及实现](https://mp.weixin.qq.com/s?__biz=MzI2MTU3MTE4NQ==&mid=2247483896&idx=1&sn=50c61e2c78aa610a1944be6a89bd75e5&chksm=ea5916e6dd2e9ff0a62af64c7f345ffb5c6dafdb65847b757b99afcc6fed8e1270e915dbcb25&mpshare=1&scene=23&srcid=1001DxwdQpiMwea74mczpSw8#rd)
 - [Android实战——GreenDao3.2的使用，爱不释手](https://mp.weixin.qq.com/s/4Nx2DacsK65O5LanPZUszA)
@@ -90,27 +81,21 @@
 - [Android混合编程：WebView实践](https://juejin.im/post/59f17a7051882546d71e91a7)
 - [runOnUiThread 、Handler.post、View.post之间的区别](https://blog.csdn.net/dengpeng_/article/details/78804404)
 - [理解 Activity.runOnUiThread](https://www.jianshu.com/p/e39449026f21)
-- [说说 getMainLooper](http://www.icodeyou.com/2015/10/11/2015-10-11-getMainLooper/)
 - [Android 探究 LayoutInflater setFactory](https://blog.csdn.net/lmj623565791/article/details/51503977)
 - [巧用ViewPager 打造不一样的广告轮播切换效果](https://blog.csdn.net/lmj623565791/article/details/51339751)
 - [为RecyclerView打造通用Adapter 让RecyclerView更加好用](https://blog.csdn.net/lmj623565791/article/details/51118836)
 - [MNCrashMonitor 监听程序崩溃日志,直接页面展示崩溃日志列表](http://www.wanandroid.com/blog/show/2207)
 - [『进阶之路』—— 线程池](http://www.wanandroid.com/blog/show/2264)
 - [从json文件到炫酷动画-Lottie实现思路和源码分析](https://www.jianshu.com/p/81be1bf9600c)
-- [Lottie动画库 Android 端源码浅析](http://chenhaohui.com/2017/03/13/sd/)
 
 
 ### Gradle相关
 
 - [如何理解 Transform API](https://juejin.im/entry/59776f2bf265da6c4741db2b)
-- [Gradle自定义插件详解](https://www.jianshu.com/p/03eb55536298)
-- [Android 突破 DEX 文件的 64k方法数限制](http://yifeng.studio/2016/10/26/android-64k-methods-count/)
 - [Android Dex分包之旅](http://yydcdut.com/2016/03/20/split-dex/)
-- [美团Android DEX自动拆包及动态加载简介](https://tech.meituan.com/mt-android-auto-split-dex.html)
 - [gradle简单入门系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
 - [Gradle简单配置](https://mp.weixin.qq.com/s/1UHcYOudViMhpUYeREZzGA)
 - [Android 如何编写基于编译时注解的项目](https://blog.csdn.net/lmj623565791/article/details/51931859)
-- [Gradle 完整指南（Android）](https://www.jianshu.com/p/9df3c3b6067a)
 
 
 ### 插件化相关
@@ -160,20 +145,14 @@
 
 
 ### 面试题
-
-  [**Java面试相关**](https://github.com/linsir6/JavaNote)
-
 - [Android动态加载技术三个关键问题详解](https://blog.tingyun.com/web/article/detail/166)
 - [Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
-- [Android插件化系列第（一）篇---Hook技术之Activity的启动过程拦截](https://www.jianshu.com/p/69bfbda302df)
 - [Android插件化系列第（二）篇---动态加载技术之apk换肤](https://www.jianshu.com/p/d1c6e67f7889)
 - [Android插件化系列第（三）篇---Hook技术之View点击劫持](https://www.jianshu.com/p/dfc6e3989511)
 - [Android性能优化之布局优化](https://www.cnblogs.com/hoolay/p/6248514.html)
 - [简易断点续传下载器实现](https://www.jianshu.com/p/5b2e22c42467)
 - [超详细面试基础题](https://mp.weixin.qq.com/s/YVvV3-RUjbqYo-DYY3E6nA)
 - [JVM结构、GC工作机制详解](http://blog.csdn.net/tonytfjing/article/details/44278233)
-- [深入理解Activity的生命周期](https://www.jianshu.com/p/fb44584daee3)
-- [2017-Android暑期实习生面试经验谈](http://lruheng.com/2017/05/09/2017-Android%E6%9A%91%E6%9C%9F%E5%AE%9E%E4%B9%A0%E7%94%9F%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C%E8%B0%88/)
 - [深入探讨类加载器](https://www.ibm.com/developerworks/cn/java/j-lo-classloader/)
 - [找到无序数组中最小的K个数](https://www.cnblogs.com/xiaomoxian/archive/2016/02/11/5186762.html)
 - [字符编码笔记：ASCII，Unicode和UTF-8](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
@@ -301,7 +280,7 @@
 - [Spring Boot 配置文件 – 在坑中实践](https://www.bysocket.com/?p=1786)
 - [Spring Boot 之 RESRful API 权限控制](https://www.bysocket.com/?p=1080)
 - [Spring Boot 整合 Redis 实现缓存操作](https://www.bysocket.com/?p=1756)
-- [Spring Boot 官方文档](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/　　)
+- [Spring Boot 官方文档](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
 
 ----
 
